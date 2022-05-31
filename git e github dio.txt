@@ -1,0 +1,430 @@
+controle de versões
+
+git
+versões de um arquivo
+linus torvalds
+mesmo criador do linux
+software é algo colaborativo
+
+é apenas  mais um  sistema de versionamento
+atrás
+
+
+github são de empresas diferentes, não são a mnesma coisa
+complementares 
+
+
+github 
+repositório online
+git é gratuito
+há outros serviços parecidos que o github
+
+
+git não tem interface grafica
+atraves de comandos por terminal
+
+
+[gui x cli]
+comandos no windows
+cd <-  mudar de pasta
+dir <- lista arquivos
+mkdir <- criar diretório
+del ou rmdir
+del só deleta os arquivos
+para deletar  repositório no windows -> rmdir /S /Q
+
+
+depende do s.o da sua maquina 
+
+limpar terminal < cls
+
+
+
+---
+instalar pelo site do git 
+
+bash e gui here <-  devem estar marcados no instalador
+editor de texto padrão
+
+deixar git decidir o master
+tudo next, 
+credential helper ->  
+deixar no manager core
+
+next e concluir
+
+digitar git no pesquisar do windows
+
+----
+#sha1
+secure hash algorithm
+criada pela agencia de segurança dos eua
+encriptação de saida com 40 digitos chave
+ele vai gerando chaves conforme as modificações
+
+https://prnt.sc/nEJ40mxNjGeH
+
+git bash here, com botão direito
+garante modicações de uma versão para outra
+
+
+
+
+
+#objetos
+	-Blobs
+		tipo, tamanho, conteúdo, char <-oq tem dentro de um objeto
+	guarda com metadados nesses objetos, tamanho do arquivo, string...
+
+	
+
+
+	-trees
+	armazenam as blobs. 
+	guarda nome do arquivo
+	estrutura e localização dos arquivos
+	https://prnt.sc/SlquPjetSen2
+	podem apontar para outras arvores e arquivos		
+
+	commits
+	que junta tudo
+	aponta para arvore, parente, autor, mensagem, data/hora, ...
+	mudar qualquer coisa em um arquivo altera tudo
+	https://prnt.sc/RcP8QP_r811p
+
+#sistema distribuido e segurança
+	estrutura,
+	distribuido
+	garante que os arquivos dos outros usuários são os mesmos
+
+
+------ PAREI AULA CHAVE SSH
+
+autentificação para mandar seu código
+não é por senha e user, não precisamos de senha mais
+
+
+ssh <- configuração de chaves
+tornar uma máquina confiável
+
+setting no github, ir em SSH <-
+criar nova chave ssh
+
+terminal bash? 
+
+
+abrir o git bash no windows
+comandos para criar chaves:
+
+ssh-keygen -t ed25519 -C lucasthe2@gmail.com
+
+vai jogar em um local as chaves
+pede para entrar com uma senha
+
+geera uma chave pública e uma privada
+dar um cd para /user/nomeUsuário/ .ssh
+dar um ls
+dar um cat id... .pub para visualizar a chave que vai no github
+
+no github nos colocamos a chave pública
+
+pwd <- q comando é este?
+
+
+[outro comando
+
+eval $(ssh-agent -s)
+vai aparecer Agent alguma coisa
+
+comando
+ssh-add colocar a chave privada
+
+para clonar um repositório utilize o ssh
+
+clonar repositório
+dar um git clone e caminho ssh
+git : ssh do repositório
+
+
+
+TOKEN DE ACESSO PESsoal
+tem que digitar seu nickname e senha
+todo commit exigirá isso
+
+no github settings
+developer setting> personal acess tokens > 
+gerar novo token  
+deixar só repo marcada
+
+mantenha certeza de marcar o token em algum local seguro, pois ele some
+
+dá para clonar com token
+
+git clone https do repositório
+vai aparecer uma tela no site exigindo o token
+
+
+--------------------
+
+criar uma pasta para trabalhar
+dar um git bash here (botão direito windows)
+criaremos outra pasta dentro com mkdir 
+as pastas serão nossos repositórios
+
+dar um git init 
+gerará uma pasta oculta git
+
+ls -a vê arquivos ocultos
+
+cd.. voltar 1 nivel
+
+primeira vez pede user name e email
+git config --global user.email "SEU EMAIL"
+git config --global user.name COLOCAR NOME
+
+markdown <- tipo um html mais humano, mais fácil
+
+https://prnt.sc/vrYCekn04f90
+
+quantidade de # substitui os h1,h2,h3,h4...
+arquivo com extensão .md no final
+
+programa typora <- ele edita 
+pesquisar por comandos do markdown
+
+
+git add *
+git commit -m "commit inicial"
+
+https://prnt.sc/Pan3yTl802zk
+
+git init <- cria um repositório
+
+explicação de como funciona o git por baixo de panos
+https://prnt.sc/wZ6Hm12NHxyz
+
+Oq acontece ao criar um arquivo
+https://prnt.sc/xMPUZ0XTUoLQ
+
+REVER AULA DE CICLO DE VIDAS
+
+----------------------------------
+
+
+criar repositório com mkdir
+dar um git init
+ls -a ver as pastas ocultas
+
+cd .. <- voltar 1 nivel
+primeira vez no git pede git config --global user.name SEUNOME
+criar arquivo .md pelo terminal: echo "" >> readme.md
+dar um git add *
+criar um commit com git commit -m "inicial"
+git branch -M main
+git remote add origin git@github.com:Lupesto/tiny_Software.git
+
+
+commits carregam mensagem de textos
+ter acesso a qual commit foi adicionado
+aparece os  primeiros caracteres do sha1
+
+
+-----------
+ciclo de vida no git
+
+git init <- inicializa um repositório
+dentro de uma pasta
+
+tracked <- dividem-se em não modificados, modificados e staged (aqueles esperando para algo)
+untracked <- arquivos que o git se quer tem ciencia deles
+
+git add manda um arquivo que o git não conhecia para staged 
+unmodified aqueles no repositório que não teve modificação
+dar um git add novamente o arquivo ficará nessa área
+
+dar um git add para um arquivo modificado mandará ele para staged
+remover um arquivo unmodfied o joga para untracked
+
+depois de staged vai para commit, colocamos mensagem em um commit com autor e data
+depois de commit um arquivo vai para não modificado (unmodified)
+
+
+local repository <- na sua máquina
+staging area estão na máquina 
+
+https://prnt.sc/FOMXHWx2VAm5
+
+ao fazer o commit vc manda o pessoal do staging area para unmodified 
+repositório local só com commits, para poder enviar para um repositório remoto
+
+git status <- ver em que posição está um arquivo
+working tree clean significa repositório de trabalho sem alteração
+nothing to commit <-nada para comitar
+
+mv para mover um arquivo 
+mv NOMEARQUIVO.md ./outro repositório
+
+
+--
+echo "# tttt" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Lupesto/tttt.git
+git push -u origin main
+
+
+
+[substituir remote origin]
+[remover repositório]
+
+
+
+
+
+
+pra não ficar essa putaria de versão antiga,final, versão final de verdade
+
+---
+git init inicializa um repositório  dentro da nossa pasta
+https://pt.stackoverflow.com/questions/326160/diferen%C3%A7a-entre-git-add-all-git-add-e-git-add-u
+
+
+git config --list
+lista de configurações no git
+setar mesmo email e email/ name no github
+
+para resetar 
+git config --global --unset user.email
+git config --global --unset user.nickname ou name
+
+
+para setar o autor
+git config --global user.email
+
+substituir author de um commit mudará o sha1,
+aparecerá no github de maneira diferente o author
+mostra quais repositórios vc contribui conforme os anos
+
+só apontar 
+empurar do repositório local para remoto
+para adicionar o local aonde enviaremos os arquivos vamos de > git remote add origin +URL
+
+git remote -v <- listar repositórios remotos
+
+git status mostrará que não tem nenhuma pendencia no repositório
+
+
+git push origin master 
+
+github é mais visual para vermos aquilo que está sendo alterado
+dá para ver histórico dos commits
+conteúdo no commit
+https://prnt.sc/Vgfgt59nytzd
+
+
+
+---
+para colocar um arquivo novo no github
+git add --all
+dar um commit
+dar um branch
+dar um push
+pronto, arquivo upado
+	
+
+--
+se o repositório já tiver um origin
+será necessário dar um 
+git remote rm origin
+e colocar seu novo repositório remoto destino
+
+
+dá para forçar um push com
+git push origin main -f
+caso apareça o erro de 
+https://prnt.sc/tR2-5XWnPaQJ
+https://prnt.sc/063vGUKfffBS
+
+
+
+
+
+---
+
+Resvolver conflitos
+
+suposição com edições e modificações no código
+github pede para vc puxar o código mais atual
+
+conflito de match
+duas alterações na mesma linha
+vc precisará abrir o arquivo
+
+git add * <- adiciona tudo
+[testar modificar um arquivo para ver resultado em git status]
+
+criou um commit e tenta empurar com push
+aparece aquela mensagem que já vi, rejeitado
+fala sobre o problema causado por outro repositório
+pede para integra-los primeiro
+pede no erro para dar um git pull
+
+git pull origin master <- junta ambos os arquivos
+ver na parte de baixo em conflict, o merge.
+
+aparecerá <<<HEAD
+e ======
+
+significa <head sua versão atual
+==== <informação que se tem lá no github
+
+fazer as modificações que ele pede
+depois dar um git add *
+git commit -m ""
+dar um git push
+
+codespace?
+github desktop?
+
+COPIAR REPOSITÓRIO
+dar um git clone .... e linha
+vai copiar o repositório na sua máquina
+
+
+trocar repositório remoto
+git remote set-url origin https://git-repo/new-repository.git
+
+
+para add conteúdo dar um 
+git add *all
+dar um commit
+branch
+push
+
+
+--------------------------
+
+projeto github
+
+hard e soft skills
+
+falvojr github
+compartilhe suas anotações
+
+estudar sobre gitignore e licenças
+ler documentação markdown
+
+vc pode receber um repositório vazio
+dar um git clone e aparecerá em sua página 
+
+Pode ir colocando seus estudos todos os dias 
+
+git pode ser usado para qualquer coisa, exemplo na academia
+a ideia do github é a colaboração de outras pessoas
+
+Criar repositório para Bootcamp, Capgemini e PowerPlatform
+
+
+
