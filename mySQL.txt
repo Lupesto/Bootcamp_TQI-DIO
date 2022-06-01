@@ -1,0 +1,104 @@
+mySQL no phpmyadmin
+
+Edgar Codd
+
+As tabelas são compostas por entidades, atributos e chaves
+
+chave relaciona aos dados
+
+Pq usar tabelas?
+dados estruturados de forma estruturada
+
+
+dados atômicos, único e não pode existir em nenhum outro lugar
+permite a consulta e manipulação de dados de maneira simplificada
+
+--
+MySQL é gratuito, há outras opções no mercado
+no geral as querys são as mesmas
+
+phpMyADmin -. sistema gerenciador de banco de dados
+há outras opções no mercado
+
+
+atributos
+entidades
+
+
+Download
+uso do Xampp
+instalar direto do site do mySQL
+mySql workbench <-
+ 
+
+----
+comandos para criar table e colunas
+após virgula nos permite quebra de linha
+
+essencial a primary key(id) para buscar dados
+
+--
+input de data é no formato americano
+clicar em visualizar 
+
+---
+favelaInvest?
+
+criar arquivo sql no vscode
+escrever query 
+mais fácil pois possui auto complete
+
+boa prática no mysql
+compartilhar os comando no github
+
+
+nathalyls
+
+----
+uso do
+SELECT (podemos adicionar * from para todos)
+para visualizar determinado dado
+
+uso do update e where para atualizar determinado id
+--
+Uso do delete
+
+não existe ctrl z no mySQL
+
+dar um select para visualizar aquilo que será ser deletado
+mesmo um id sendo deletado ele não é repetido
+
+ordernar dados com ORDER BY
+por padrão crescente
+
+
+--
+agrupamento de informaçõess
+Group BY <- vai após select
+alter table <- ??
+podemos definir a posição de uma coluna com after ou before
+
+uso do count para contar grupos de dados
+
+treinar o uso dos comandos
+
+-----------
+
+MY SQL CONSULTAS COM JOIN
+
+consulta em várias tabelas
+
+uso da UNION (unir consultas diferentes)
+explicação confusa
+
+permite abreviar uma tabela com AS 
+
+--
+parei vídeo 4
+
+
+
+
+
+
+
