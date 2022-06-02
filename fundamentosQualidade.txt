@@ -1,0 +1,128 @@
+Qualidade de software
+
+---
+Definição de qualidade 
+
+
+
+definições qualidade
+-norma ISO 9000
+nela define qualidade
+conjuntos de característica que satisfazem os requisitos
+
+Cita
+-Peters(2002)
+-Sanders (1994)
+-Pressman
+
+ISO IEC 25010:2011
+IEEE Standard (2014)
+
+mais importante:
+requisitos de software a base para medir a qualidade
+existem requisitos implicitos que afetam a qualidade
+
+cada teoria tem uma visão
+Visões de qualidade:
+transcedental, usuário, manufatura, produto, baseado em valor
+
+transcedental
+através da experiência prévia ou consenso
+
+
+usuário
+depende, exemplo usuário que prioriza segurança e leva como fator de qualidade
+Aquela que é personalizado de acordo com a necessidade do usuário
+
+manufatura
+Qualidade é relacionada com conformidade aos requerimentos
+
+
+
+produto
+boas propriedades internas se refletemas boas qualidades externas
+
+
+baseada em valor
+custo beneficio na visão do cliente
+
+----
+
+normas técnicas:
+publicações de organizações com objetivo de padronizar atividades, processos, produtos
+Ex: ISO , IEE (engenharia), IEC 
+
+pode haver de cooperação, criam padrões em conjunto
+
+[ver tabela]
+mais relevantes padrões:
+ISO 9000, 9001, 9004, 9126,19011
+
+especificas para software
+ISO 14598
+ISO 12207
+19011
+IEE 1012:2016
+IEE730:2014
+ISO 15289:2019
+29119:2013
+
+
+familia square (25000-25099), substitui a 9126 
+
+---
+[rever vídeo medindo qualidade]
+medição da qualidade
+
+
+testes não garante a qualidade de um software
+
+-- 
+gerenciamento qualidade de software 
+
+
+satisfação do usuário
+atividades principais:
+planejamento, garantia, controle e melhoria
+
+no planejamento:
+é uma etapa que determinados padrões, processos, metas
+
+
+garantia:
+garantir o que está sendo produzido é o desejado pelo cliente
+
+controle de qualidade:
+examinhar projeta
+determinar se os padrões estão seguidos
+
+melhorias de procesos
+sugestão de mudanças que beneficiem o produto final
+
+
+olhar crítico
+Apresenta os processos apresentados pelo pressman para gerenciar a qualidade
+
+
+-----
+controle de qualidade
+
+análisa estática: avaliação documentação software
+tem que haver conformidade com o fluxograma gerado
+e código fonte
+ métodos: code review, ferramentas de verificação de código, analise histórias e modelagens
+
+
+análise dinamica:
+com código em execução
+
+podendo ser mescladas
+
+
+verificação -> garantir que a construção de maneira correta
+validação -> garante que o produto correto está sendo construido
+----
+
+CARACTERIZANDO DEFEITOS
+
+

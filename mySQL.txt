@@ -94,7 +94,22 @@ explicação confusa
 permite abreviar uma tabela com AS 
 
 --
-parei vídeo 4
+video  4
+confuso
+filtrando com select join e on
+
+
+--
+uso do inner join
+outer join (com left ou right
+
+posição das tabellas
+ao chamarmos com select a primeira está a esquerda e a segunda a direita
+
+UNION para unir duas consultas
+
+[consultar arquivo SQL no drive]
+
 
 
 
