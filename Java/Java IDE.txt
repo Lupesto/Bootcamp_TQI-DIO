@@ -1,0 +1,161 @@
+IDES mais utilizadas no mercado:
+eclipse e intellij IDEA
+
+
+ementa curso
+
+---
+java foi desenvolvido pela Sun Microsystems que foi posteriormente adquirido pela oracle 2008
+
+tudo em java é um objeto
+
+a linguagem mais popular hoje é python, seguida por java, javascript e c#
+
+é uma linguagem interpretada
+programa(salvo em .java -> compilador pega o programa e salva-o em .class -> JVM(maquina virtual) pega/interpreta o .class e interpreta para linguagem de máquina
+
+.class é o bytecode
+
+etapas do código
+em c
+compilação -> execução
+Compilação -> interpretação -> execução
+
+
+diferenças plataforma java e linguagem
+
+o java não é a única linguagem da plataforma java
+programa é interpretado pelo JRE
+
+Plataforma é dividida em JAVA SE, EE, ME, há outras...
+
+
+escrita do código gera um .java, após compilação com jdk o arquivo vai para .class
+JDK compila .java para .class
+JVM é responsável por executar o bytecode (.classs)
+
+
+JRE - interpreta o código
+
+possui versão paga e gratuita
+
+Versões java
+openJDK - open source com uma GNU licence
+JDK oracle requer licença comercial
+
+
+LTS ??
+
+utilizaremos java 11
+opte por versões LTS
+
+IDE - software que combina ferramentaspara o desenvolvimento
+
+---
+
+instalação no windows
+
+cmd
+dar um java --version
+open jdk zulu instalar o 11
+criar pasta chamada java no c:/arquivos 
+extrair arquivos nela
+
+
+tem que configurar as variáveis no path do windows
+nova variável nomeada JAVA-HOME  com url docaminho
+configurar path com URL da pasta + (barra invertida)bin
+
+dar um java --version no cmd
+
+mostrando que dá paracompilar pelo cmd
+
+
+--
+instalando as IDEs
+
+
+instalando eclipse e itellij community
+
+---
+
+ler sobre estrutura das interfaces das IDEs
+mostrando as possiveis perspectivas de interface 
+perspectiva java
+
+criando java project
+criação de class
+existem atalhos para o autocomplete
+
+---
+
+mudança de aparencia para dark
+aumentando fonte 
+renomeando pacote (rename package)
+CTRL + N 
+eclipse dá opção para criar método main
+construtor java
+ctrl+d apagar linha
+
+getters 
+setters
+hash code equals
+
+ctrl shift o - importação aumatica pacote
+
+github git
+clickar com botão direito no projeto>team> share project
+crear novo repositório
+ir no mesmo local em commit 
+
+
+
+---
+Debug
+encontrar e corrigir erros
+
+CTRL ALT + SETA BAIXO(ou cima) 
+Copia para direção de baixo
+
+ctrl + espaço - preenchimento automático
+red point
+debug as> java aplication
+
+testar os botões de execução step into, over...
+f5 (step into) vai entrando método por método 
+f6 não entra nos  métodos
+
+
+ctrl + shift T - ir direto para um método especifico
+
+
+---
+
+import projects> exist projects
+java build path, informações  sobre o projeto como bibliotecas utilizadas
+
+
+
+--
+vs code
+
+direcionada para Javascript
+muitos desenvolvedores javas estão aderindo
+
+fazendo integração  github no vs + adicionando tema
+
+java extension pack <- plugin vs code
+
+
+atv -
+O que é JRE
+O que é IDE
+
+outras linguagens plataforma java
+Groovy, jython e JRuby
+
+
+
+
+
+

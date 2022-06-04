@@ -1,0 +1,47 @@
+Linkedin
+thiago-leite-e-carvalho-1b337b127
+
+
+thiagoleitecarvalho <-github
+
+
+Ideia de uma variável:
+Espaço na memória do computador, onde se pode guardar valores
+
+
+tipos variáveis:
+instância (objeto)
+Classe
+Local(dentro de métodos)
+Parâmetro (na assinatura do método)
+
+padrão para definir uma variável:
+Visibilidade Modificador tipo nome valorinicial
+Tipo e Nome são obrigatórios ao criar uma variável
+
+V. podendo ser public, protect e private
+M - static e final
+T tipo de dado
+N nome 
+VI valor, podendo ser um inicial
+
+regras para variáveis:
+Não devem começar para números
+devem ser evitados $ e _ 
+Case-sensitive, maiusculas e minusculas
+(int I e i são variáveis diferentes)
+sem espaço
+Não pode ser uma variável com o nome de uma palavra reservada do java
+
+
+zboas práticas ao criar variáveis (permite o entendimento por outras pessoas):
+Sempre começar co minísculas
+Nomes literais (especificar para que serve a variável)
+Variáveis constantes é uma boa prática colocar tudo em upercase e com _
+
+
+laço, array, vetor <- for
+
+---
+
+
