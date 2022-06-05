@@ -1,0 +1,114 @@
+Linkedin
+thiago-leite-e-carvalho-1b337b127
+
+
+thiagoleitecarvalho <-github
+
+
+Ideia de uma variável:
+Espaço na memória do computador, onde se pode guardar valores
+
+
+tipos variáveis:
+instância (objeto)
+Classe
+Local(dentro de métodos)
+Parâmetro (na assinatura do método)
+
+padrão para definir uma variável:
+Visibilidade Modificador tipo nome valorinicial
+Tipo e Nome são obrigatórios ao criar uma variável
+
+V. podendo ser public, protect e private
+M - static e final
+T tipo de dado
+N nome 
+VI valor, podendo ser um inicial
+
+regras para variáveis:
+Não devem começar para números
+devem ser evitados $ e _ 
+Case-sensitive, maiusculas e minusculas
+(int I e i são variáveis diferentes)
+sem espaço
+Não pode ser uma variável com o nome de uma palavra reservada do java
+
+
+zboas práticas ao criar variáveis (permite o entendimento por outras pessoas):
+Sempre começar co minísculas
+Nomes literais (especificar para que serve a variável)
+Variáveis constantes é uma boa prática colocar tudo em upercase e com _
+
+
+laço, array, vetor <- for
+
+---
+tipificaçção:
+estática(forte) <- qunado a linguagem obriga o tipo de variável assim que declara
+dinâmica (fraco) <- não precisamos definir o tipo de variável no momento de criação.
+
+dados primitivo(valores numeros, textuais) e compostos (ligado oriedao ao objeto, tipo de dado struck(?) da linguagem C, heterogeneo(composição dentro de outra composição))
+
+
+tipos>
+Textual, numeral, lógico(booleano), objeto
+
+exemplo de numeral e suas capacidades de armazenamento
+byte por exemplo só tem
+números float exigem o (f) no final
+tabela com limites de byte, int, float, double...
+
+
+textual
+limites char, string
+
+tabela com valores de inicialização das variáveis
+0, 0L, null, false
+
+
+pense sempre preceptadamente como utilizará a variável antes de defini-la
+
+exemplificação dos tipos de dados na IDE 
+
+
+-----------
+
+
+OPERADORES ARITIMÉTICOS
+
+simbolos especiais capazes de realizar ações especificas
+
+tipos
+pós-fixado: exp++ ou exp--
+prefixado: ++exp ou --exp
+aritmético: + - * / %
+atribuição: = += -= *= /= %=
+
+ordem das operações no java
+pós> pre>Multiplicação> adição > atribuições
+ainda há uma ordem dentro desses grupos
+
+-------------
+
+Conversões (casting)
+
+transformação de uma determinada variável de um tipo menos especifico para um mais, e vice-versa
+
+
+ex: aumentar a capacidade de um avariável
+
+upcast (implicito) -gerado de forma automática
+downcast (explicito) rebaixar armazenamento de uma variável
+
+pode ser feito tanto em primitivos como em compostos
+fez uma tabela com o tipo de dado e se precisamos fazer um up ou down
+
+
+exemplo pegar um float em decimal
+
+[exercicio de casting]
+
+
+---------
+
+>>> parei em ENCERRAMENTO
