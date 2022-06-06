@@ -108,7 +108,9 @@ exemplo pegar um float em decimal
 
 [exercicio de casting]
 
-
+aula exercitando -> conceito na prática
 ---------
 
->>> parei em ENCERRAMENTO
+encerramento ->  referências
+
+

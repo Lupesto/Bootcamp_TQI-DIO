@@ -1,0 +1,70 @@
+CRIAÇÃO
+
+definição método:
+Criado dentro de uma classe
+executado por efeito de requisição
+realizam determinado comportamento
+
+Como criar métodos?
+Visibilidade? Tipo? modificador? retorno nome paramentros? exceções? corpo
+
+com ? = opcionais
+
+
+V: Public, protect ou private
+T: Concreto ou abstrato
+M static ou final
+R: Tipo de dado ou void
+N: Nome 
+P parâmetros
+E: Exceções que pode lançar
+C: Código que possui ou vazio
+
+
+void = não retorna nada, só executa os códigos internos
+aula definição
+[pegar os exemplos desta aula]
+
+
+Como consultar um método:
+nomeClasse.nomeMetodo();
+ou
+nomeClasse.nomeMetodo(...);
+
+
+nomeObjeto.nomeMetodo();
+nomeObjeto.nomeMetodo(...);
+
+exemplos: 
+Math.random();
+Math.sqrt(4);
+
+
+Assinatura de um método:
+identificar um método
+ass  = nome + parâmetro
+
+
+construtor e destrutor:
+métodos especiias para orientação a objetos
+
+Mensagem: Solicitar o método seja executado
+
+passagem de parâmetros:
+Pode ser por valor(cópia) ou referência(endereço)
+
+
+Boas práticas:
+nome devem ser descritivos e curtos 
+usar verbos e substantivos
+notação camelo - ex: verificarSaldo();
+método com 80 a 120 dias (quanto mais linhas mais complexo fica em entende-lo) (crie métodos auxiliares caso ultrapasse os 120)
+Evite parâmetros longos
+Definir visibilidades adequadas
+
+
+[fazer exercício e aula prática]
+-------
+
+
+
