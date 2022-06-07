@@ -1,0 +1,19 @@
+OPERADORES RELACIONAIS
+
+simbolos comparar determinados operadores
+>
+
+Similaridade <- igual ou diferente (==)
+Tamanho <- (!=)
+
+
+[fazer exercíci
+
+]
+
+
+
+
+----
+OPERADORES LÓGICOS
+

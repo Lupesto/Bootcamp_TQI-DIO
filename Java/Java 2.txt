@@ -65,6 +65,45 @@ Definir visibilidades adequadas
 
 [fazer exercício e aula prática]
 -------
+SOBRECARGA
+sobrecarga:
+mesmo método com diferente solução
+necessita mudança dos parâmetros (mudança da assinatura)
+
+
+ex: o métod printl é sobrecarregado, string
+
+sobrecarga vs sobrescrita:
+sobrescrita -> herança
+sobrecarga -> mudanças dos parâmetros de um método
+
+[FAZER EXERCÍCIO]
+
+
+-------
+RETORNOS
+simbologia: return
+quando é retornado?
+ao completar todas instruções internas
+ao chegar em uma declaração explicita de retorno
+lançar um exceção
+
+retorno pode ser de um tipo primitivo ou objeto
+return deve ser de um tipo compatível ao método
+
+ex public int getParcelas(){ return 1.36f}
+dará erro de copilação pois alega nocomeço exportação com  int
+
+[Fazer exercício]
+
+
+----
+
+
+
+
+---
+
 
 
 
