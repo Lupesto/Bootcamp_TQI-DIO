@@ -1,0 +1,45 @@
+comandos de repetição
+
+o que será visto:
+While, do-while, break e continue, arrays e for-each
+
+
+poder do computador está em repetir uma operação ou série diversas vezes
+cada repetição chama-se loop (laço)
+caso condições sejam satisfeitas
+
+classificadas:
+Repetição com teste no inciio (while
+repetição com teste no final (do while)
+repetição contada (for)
+
+break quebra uma repetição
+
+cotinue - o código volta novamente a parte de condição da repetição, restante do código não é executado
+
+
+incremento e decremento
+pre fixado
+++numero 
+--numero
+soma/subtrai e depois retorna valor
+
+pós fixado
+numero++
+numero--
+retorna valor e depois soma/subtrai 
+
+atalhos para operações aritiméticas:
++=
+-=
+*=
+/=
+
+
+
+* array do java parece ter particularidades
+
+
+[fazer exercícios]
+
+

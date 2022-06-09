@@ -7,13 +7,93 @@ Similaridade <- igual ou diferente (==)
 Tamanho <- (!=)
 
 
-[fazer exercíci
-
-]
-
+[fazer exercíci]
 
 
 
 ----
 OPERADORES LÓGICOS
+simbolos capazes de realizar comparações lógicas entre operadores lógicos u expressões , em seguida retornam resultado
+
+
+exclusão dos números
+tipos:
+conjunção, disjunção, disjunção exclusiva, negação
+
+
+APRESENTAAÇÃO TABELA VERDADE
+conjunção - AMOS VERDADE (É O AND(e))
+simbologia no java &&
+
+disjunção - só é falsa quando ambos falsos (or(ou))
+no java 
+
+disjunção exclusiva - quando ambas opeações são opostas
+terminologia xor
+no java ^
+
+
+negação - inverte valor lógico de um operando/expressão
+terminologia inversão
+no java !
+
+operadores bitwise e shift <- não são operadores lógicos
+consultar pois podemos confundir na hora de ler um código
+
+evite linhas grandes de código, facilite o entendimento
+
+
+
+EXERCÍCIO
+
+
+----
+
+CONTROLE DE FLUXO
+
+capazes de direcionar o fluxo de execução do código
+executar um pedaço de código e o outro não, repetir código...
+
+
+tipos de estruturas que controlam o fluxo:
+Decisão - if, if-else, if-else-if, switch e operador ternário
+repetição - for, while, do while
+interupção - break, continue e return
+
+
+exemplo como se escreve cada um dos if
+
+
+switch quais valores uma variável pode ter
+apresentação da escrita no java
+
+[tipo de variável enum]
+
+
+---
+boas práticas 
+switch para valores exatos, if para booleanos
+evitar usar o default do switch para casos genéricos - default é para valor inválidos e não esperando que seja determinada opção
+evitar os if aninhados pois dificulta o entendimento 
+uso o else-if
+para diminuir o if -> utilize variáveis auxiliares
+
+
+[exercício]
+
+-----
+BLOCOS
+
+o que são blocos?
+blocos de execução
+grupo de 0 ou mais códigos que trabalham em conjunto para executar uma  operação
+
+tipos de blocos
+locais, estáticos e instâncias
+
+
+como criar:
+Tudo que está dentro das chaves {}
+
+blocos com uma linha de execução não é obrigatória a abertura e fechamento de chave. 
 

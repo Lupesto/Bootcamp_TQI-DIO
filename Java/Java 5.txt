@@ -1,0 +1,23 @@
+Collection framework
+
+java jdk 11
+
+collection - objeto que agrupa multiplos elemetnos
+armazena e processa conjuntos de dados de maneira eficiente
+vários métodos para nos ajudar
+facilita 
+
+
+interface set, list e map <- neste módulo
+há uma hierarquia (mapa) do collection
+
+
+
+plugins intellij:
+atom, git tool box, key promoter, nyan, one drak theme, rainbow brackets
+
+https://drive.google.com/file/d/1kaAIEkaTt3q1rof6OFOb5XVgf25IDXf7/view
+
+
+
+---------------------------
