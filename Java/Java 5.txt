@@ -13,11 +13,76 @@ há uma hierarquia (mapa) do collection
 
 
 
-plugins intellij:
+plugins intellij utilizados em aula:
 atom, git tool box, key promoter, nyan, one drak theme, rainbow brackets
 
+slide com mapa collections
 https://drive.google.com/file/d/1kaAIEkaTt3q1rof6OFOb5XVgf25IDXf7/view
 
 
 
 ---------------------------
+
+java.util.list
+caracteristicas:
+permite elementos duplicados e ordem de inserção
+repetir valores na posição de uma list é permitido
+
+Vector
+[ver mapa de list no collection]
+
+há diferenças entre arrayList e LinkedList [pesquisar]
+array list <- preferência quando for necessária pesquisa diversas vezes na lista
+LinkedLista <- preferivel quando necessária a inserção e exclusão
+Diferença de tempo
+
+-----
+ORDENAÇÃO DE ELEMENTOS EM UMA COLEÇÃO list
+
+classe gato e seus objetos
+utilizando list
+uso do toString para imprimir os objetos e não seus endereços de memória
+
+apresentação de métodos para lidar com objetos
+
+
+----
+
+
+aula: CONHECENDO OS MÉTODOS LIST (do lado direito do vídeo lista com métodos apresentados)
+Copiar exercícios e executar
+
+Exercício nota de alunos <-
+
+Conceitos para criação de listas
+apresentação dos métodos 
+
+BUSCAR CONTEÚDO EM OUTRO MATERIAL
+
+
+--
+EXERCÍCIO
+
+
+
+----
+
+java util set
+não permite elementos duplicados
+não possuí índice
+não possui ordem de inserção dos elemntos
+por padrão ordem natural dos elementos
+
+Apresentação das limitações do set
+
+EXERCÍCIO
+
+
+----
+
+> ORDENAÇÃO DOS ELEMETOS COM SET
+
+
+
+
+
