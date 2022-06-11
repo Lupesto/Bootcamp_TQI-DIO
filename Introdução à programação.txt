@@ -1,0 +1,69 @@
+Juliana Mascarenhas
+
+AULA 1:
+Introdução
+Ementa do curso
+
+O que é Pensamento computacional?
+expressamento de soluções em passos computacionais ou algoritmo, podem ser implementados no computador
+Não se restringe a computação e exatas, por isso aprendemos a programaar no papel
+Escrita para memória de longo prazo
+Solução encontrada: pode ser usada por humanos e máquinas
+Aplicação generalista 
+Podemos usar na matemática, leitura e escrita (framentação de um texto ao construir e ler)
+
+4 pilares:
+Decomposição (dividir o problema em problemas menores) <- ex bolo com massa recheio e cobertura.
+
+reconhecimento de padrões <-
+identificar padrões tendências, similaridades/diferenças entre os problemas
+exemplo: comportamento sardinha na bolsa é um padrão comportamental
+
+
+Abstração <-
+Problema para uma forma generalista
+
+
+Design de algoritimos <- 
+Definir passo a passo para a solução do problema
+
+
+Vetor = lista = sequência
+
+Algoritimo:
+Input - Operações -> resultado
+é um processo continuo, pode demandar refinamento
+
+Super computador santo drummond? 
+--
+HABILIDADES COMPLEMENTARES
+
+
+Raciocínio lógico e aperfeiçoamento
+Raciocínio lógico <- forma de pensamento esrtuturado, conclusão ou resolução de um problema.
+
+devemos treinar o cerebro
+
+Classificação:
+Indução, dedução e abdução
+
+indução <- geração de leis e teorias. 
+Dedução <- Utiliza leis e teorias para explicar
+Abdução <- apartir da conclusão gerada a premisa. Apartir de algo observavel  vc tira uma conclusão. Utiliza em investigação
+
+
+Ato de aperfeiçoar:
+ex: simplificar linhas de códigos
+Funções bem definidas(deixar o código limpo. Legibilidade do código)
+
+
+--
+Pilares: Decomposição
+
+
+
+
+
+
+
+AULA 2:
