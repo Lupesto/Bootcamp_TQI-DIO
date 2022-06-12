@@ -60,6 +60,64 @@ Funções bem definidas(deixar o código limpo. Legibilidade do código)
 --
 Pilares: Decomposição
 
+Decompor em problemas menores para que possamos resolver
+
+Sintese <- juntar as soluções pequenas para solucionar problema maior
+
+
+pode ser sequencial ou não, depende
+existem problemas que depende da solução de um anterior
+
+ex: ao cozinhar dividimos em etapas
+Identificamos igredientes necessários
+Sequencia da receita
+execução das etapas
+Adicionar igredientes processados em sequência
+
+
+
+
+--
+Pilares:Padrões
+
+
+modelo de referência 
+ex: cadeira, há variações, mas todas consideramos como contendo pernas
+
+nós humanos fazemos isso por grau de similaridade: grupos conhecidos x objeto desconhecidos
+
+Como o computador faz isso?
+por comparação
+
+humanos utiliza por subjetividade
+Por isso precisamos ensinar a máquina, representando atributos. Uso de regras de decisão
+
+aplicação:
+reconhecimento de imagem, de fala, 
+qual idioma está sendo usado?
+classificação de documentos
+
+áreas que utilizam o reconhecimento de padrão:
+marchine learning, rede neurais, inteligência artificial, ciência de dados
+
+
+--
+Pilares: abstração
+
+analisar caracteristica
+isolamento de um objeto da realidade
+detectar as caracteristica
+generalizar: tornar alguma mais amplo, extenso
+
+ex: classe de estudantes
+atributos que possuem
+precisamos limitar os atributos essenciais para solução do nosso problema
+
+[merge sort, clustering, 
+[Como são usados os grafos na programação?]
+
+
+--
 
 
 
