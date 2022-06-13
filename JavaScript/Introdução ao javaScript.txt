@@ -1,0 +1,85 @@
+linguagem interpretada <- rodada em tempo real. Resultado em tempo real
+linguagem copilada <- vai para o copilador para depois possamos ver o resultado
+
+Baseada em protótipos [pesquisar sobre]
+Multiparadigma <- pode utilizar poo, programação funcional..
+comumente utilizado nas aplicações web
+Segue o padrão ECMA script <- padrão para várias linguagens [pesquisar mais sobre]
+
+
+criado em 95
+97 primeira versão seguindo versão ecma script1
+
+atualmente ecmaScript 6(o 4 nunca foi lançado) 
+muitas atualizações
+
+Comunidade muito ativa
+
+Aplicações:
+web
+mobile
+smartwatch
+games
+IOT
+APIs
+
+
+Não é presa ao mundo web
+node ajuda a rodar o JS no server-side
+Client-side <- parte em que o cliente vê
+
+
+----
+Comentário 
+
+//  <- uma linha
+/* */ <- várias linhas
+
+Atalho Ctrl + / em uma seleção, comenta tudo.
+
+
+[consultar documentação, parece não precisar definir o tipo de variável]
+
+Boa prática:
+declarar uma constante em maisculo 
+
+
+--
+Criando uma função
+console.log no JS e return
+e utilizando-a
+
+--
+Console 
+usando na página web e no terminal
+
+abrindo pelo chrome
+Console do navegador
+
+download node.js
+baixar a versão LTS (mais estável)
+Full next, next..
+
+terminal do vs lendo um arquivo .js
+terminal escrever node nomeDoArquivo.js
+
+--
+Estrutura de projeto
+assets -> imagens, ferramentas, js, tudo que não é html
+
+Criando pasta do projeto:
+html
+assets > css e js
+
+--
+chamando página css no html
+
+recomendavel chamar o arquivo js antes do fechamento do html, pois a leitura é de cima para baixo, se elementos da tela não estiverem renderizados pode ocorrer algum problema.
+
+--
+interagindo com elementos do DOM
+
+
+
+
+

@@ -126,3 +126,55 @@ validação -> garante que o produto correto está sendo construido
 CARACTERIZANDO DEFEITOS
 
 
+Rastreamento de defeitos:
+entendimento do produto, correção de processos, reportar status do produto, alinhamento de revisões com o time de desenvolvimento
+
+revisão de código
+parte essencial
+
+
+O que é defeito?
+Anomalia encontrada em um produto
+
+definição erro, defeito, falha de sistema
+
+Motivos que levam aos erros:
+pressa para conclusão das tarefas
+Falta de comunicação
+Inexperiência 
+Complexidad tecnologica
+Condições ambiente inesperada
+
+---
+
+Ciclo de vida do bug
+Surgimento ao fechamento do report de um bug
+
+Arrumam o código e caso haja um problema no retest ele volta ao ciclo
+[ver imagem do ciclo]
+existem bugs que só são corrigidos em uma versão futuro
+
+os defeitos devem ser rastreados em qualquer momento do ciclo de vida de desenvolvimento do software.
+
+é um processo que se adequa ao time
+fazer reports ajuda na melhora do processo de desenvolvimento
+
+existem ferramentas para rastrear os bugs
+
+
+Há informações especificas na hora de dar o report.
+
+
+--
+
+Exemplo de ferramentas para defeitos e gerenciamentos de projetos (lista de softwares
+ex: Jira e Azure Devops
+bugzilla 
+
+apresentação bugzilla
+
+
+
+--------------------
+Introdução aos testes de software
+
