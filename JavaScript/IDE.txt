@@ -1,0 +1,40 @@
+Stephany nusch
+principal ide do mercado para js
+vs code
+
+
+adicionar em path no setup de instalação
+settings:> preferences da ide
+
+definindo size font, tab space, 
+
+alt para escrever simultaneamente
+word wrap para qubrrar texto em determinada coluna
+grande lista de atalhos no teclado
+
+
+colocar *2 em uma tag a multiplica
+extensos
+icons  <-
+temas
+]
+
+abrindo terminal
+funciona como o cmd
+pesquisar sobre o  path
+
+abrtindo arquivos pelo terminal usan code .
+uso do git no vs code
+
+comando para busca
+e codigos
+
+
+Principais IDEs javascript
+atom. sublime e brackets outras ides
+
+
+
+-------------------------
+
+ 
