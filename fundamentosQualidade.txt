@@ -178,3 +178,58 @@ apresentação bugzilla
 --------------------
 Introdução aos testes de software
 
+Conceitos, processos, niveis e tipos de testes.
+
+
+Para que servem os testes?
+Redução o risco das falhas de software
+
+Faz parte do controle de qualidade
+
+Verificar cumprimento de requisitos
+Atuar junto com o cliente para a tomda de decisões
+
+
+teste X depuração
+
+
+Principios de teste:
+testes provam a presença de erros e não ausencia
+não dá para testar todas as possibilidades de erro
+testes iniciais economizam tempo e dinheiro
+defeitos se agrupam
+Fazer o mesmo teste não encontram novos erros.
+[teste de recessão]
+
+teste depende do conetexto, as tecnicas variam 
+ausencia de erros é ilusão, todo software possui
+
+
+
+--
+Processo
+
+apresentação de fatores que influenciam um teste
+
+Sequência das atividades de teste
+Precisamos definir o proposito do teste, voltado a determinada área
+
+Apresentação de estratégias
+
+saida esperada em um teste -> done
+
+
+
+
+[consultar outro material]
+
+Ementa:
+Definição qualidade de software, gerenciamento de defeitos, introdução aos testes de software
+
+
+Fonte: guru99
+Slide:
+https://docs.google.com/presentation/d/1lf5Z39hwxqIa-WGLAxkcuJTpEjO-TfDz/edit#slide=id.g10180a8d9a1_0_17
+
+
+

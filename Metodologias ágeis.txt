@@ -1,0 +1,45 @@
+processo interativo de aprendizado social
+
+Processo de software:
+Roteiro. Etapas necessárias para o desenvolvimento de um software
+
+
+Todos os envolvidos são responsáveis pelo projeto
+os processos de software são flexiveis
+
+
+Citação de Pressman e Sommerville
+Definições das principais atividades
+
+
+
+Fluxos interativos, podemos voltar para determinado processo
+Fluxos: evolucionário, interativo, paralelo, linear
+
+Padronização de procesos: SCAMPI, CBA, SPICE e ISO
+
+
+Modelo cacata (waterfall)
+linear e sistemático
+Estágio de conclusão e teste
+Bem definido e estável
+
+
+Modelo V
+Testes em paralelo com desenvolvimento
+é um cascata modificado
+
+Problema cascata:
+projetos dificilmente seguem sequencias
+não funciona bem com adaptações e mudanças
+Longo tempo para visualizar a primeira versão do software
+
+
+
+---
+
+Modelos: Incremental, iterativo e concorrente
+
+
+
+
