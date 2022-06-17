@@ -186,5 +186,26 @@ Instruções são operações para tratamento dos dados
 operadores podem ser tanto binários como unário
 
 --
+cada linguagem possui uma sintaxe
+
+--
 Estruturas condicionais e operadores
+dada uma condição satisfeita será executada uma operação
+
+[exemplo confuso]
+estruturas: Simples, composta e encadeada (if e else if)
+
+
+operadores lógicos: and, or e not (inversão do resultado lógico)
+
+
+--
+estruturas de repetição
+
+sinonimos: loop, repetição, laço, controle de fluxo, malha de repetição
+necessária uma condição de parada, para que não haja loop infinito
+
+-- 
+Vetores e matrizes
+
 

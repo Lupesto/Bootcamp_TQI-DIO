@@ -1,0 +1,88 @@
+camel case
+someAwesomeCase
+
+existem ainda:
+snake,kebab,pascal e upper case snake case
+
+var e let palavras reservadas
+let só funciona dentro do bloco de código (local
+var é global
+
+
+hoisting- 
+dar o valor a uma variável antes mesmo de declarar-la
+https://prnt.sc/GRo0t9N8ep7X
+let precisamos declarar antes, se não gera erro.
+
+atribuição - criar variável e dar um valor para ela
+redeclaração - colocar tipo da variável que já existe e dar um valor.
+reatribuição -
+pegar a variável e colocar outro valor dentro dela com =
+
+
+
+--
+Constantes
+
+uso do Snake_upper_case <convenção
+escopo de bloco e não faz hoisting
+não pode reatribuir valores, não pode redeclarar
+
+sempre inicializa-la com o valor, se não gera erro.
+
+---
+Regras var, let e const
+https://prnt.sc/gGig61_1tQ7Q
+
+
+--
+TIPOS
+
+estrutura de dados - 
+antes de declarar um valor não precisamos especificar seu tipo
+tipagem dinâmica, pode colocar o tipo de variável que quiser em uma variável
+
+
+Tipos de dados Primitivos e não primitivos
+Primitivos(não possuem métodos dentro deles) > 
+Numeros, strings, boolean, null e underfined 
+
+Compostos(não primitivos>
+Objetos e arrays
+
+
+
+--
+Strings
+métodos usados
+.concat <- 
+typeof
+.length
+
+new String ("OI") <- é um objeto, tudo dentro do index, métodos para string. <- dá para declarar assim, mesmo não fazendo assim a linguagem permite trabalhar com os métodos
+
+acessando indice da string
+
+java script escapes [pesquisar] <- pular linha, uso de crase para nomes em bloco.
+comando para pular linha /n <- barra para a esquerda
+
+printando aspas com escape
+Strings permitem aspas duplas e simples
+
+.split em uma string e com espaço
+.includes
+.stratsWith
+.endsWith
+.replace
+
+Há muitos métodos [consulte a documentação]
+
+
+
+--
+Numbers
+
+
+
+
+
