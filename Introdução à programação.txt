@@ -117,11 +117,74 @@ precisamos limitar os atributos essenciais para solução do nosso problema
 [Como são usados os grafos na programação?]
 
 
+
+
+
 --
+Pilares: Algoritimos
+
+Computador precisa de instruções detalhadas para funcionar
+Recebe, manipula e armazena dados
+programas contém instruções
+
+Como elaborar instruções?
+definir o que precisa ser feito e ordem das execuções
+
+Como construir um algoritimo?
+Compreender o problema
+definir dados de entrada
+definir processamnto
+Definid dados de saida
+Utilizar algum metodo de contrução, testes e diagnosticos
+
+
+
+Cibstrução por narrativa, fluxograma e psudocódigo
+--
+Estudos de caso
 
 
 
 
-
+----
 
 AULA 2:
+Introdução a lógica de programação
+
+lógica nos auxilia na resolução de problemas
+
+tecnicas: linear, estruturada e modular
+
+---
+FUNDAMENTOS DE ALGORITMOS
+
+tipos primitivos de dados: numericos(inteiros e reais), caracteres e lógicos
+
+
+variável:
+multável
+inscontante
+instável
+Recebe algum tipo de dado
+Restrita a receber um valor do seu tipo
+
+
+regras:
+Dê sentido ao nomear suas variáveis.
+sem espaços
+
+Papéis de uma variável: Pode ser de ação ou de controle
+
+
+
+Constante: Inalterável, não muda. Exempl: Pi.
+
+Dados podem ser tratados e processados
+Instruções são operações para tratamento dos dados
+
+
+operadores podem ser tanto binários como unário
+
+--
+Estruturas condicionais e operadores
+

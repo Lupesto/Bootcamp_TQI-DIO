@@ -1,0 +1,40 @@
+
+vários operadores
+
+= atribuição de valor
++= --- x = x+ y 
+*=
+/=
+%=
+
+
+**exponencial
+% modulo <- resto
+++ incrementar
+-- Decrementar
+
+
+
+Comparação:
+== --> igual a
+=== --> mesmo valor e mesmo tipo
+!= diferente
+!== valor diferente e tipo
+
+
+Logicos
+&& - e
+|| - ou
+! - não lógico
+
+
+
+
+---
+[Atividade prática]
+
+Github instrutura com desafio
+
+
+
+

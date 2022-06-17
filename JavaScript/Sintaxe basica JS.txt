@@ -1,0 +1,89 @@
+dianamartin
+[fazer atividades]
+
+linguagem de alto nivel
+
+Como surgiu?
+1995 
+Brenda Eich
+De inicio se chama Mocha, mas por conta da popularidade de Java alteraram o nome para JavaScript
+
+
+Para que serve?
+JS permite a interação com a estrutura (HTML) e a estilização (CSS)
+
+
+Onde usar?
+mais utilizado no desenvolvimento web
+
+
+
+Ferramentas:
+VSCode + extensão Live Server <- baixar
+
+
+alert(""); dentro da tag script
+
+boas práticas:
+externar o arquivo de script ao invés de colocar direto no html
+Antes do fechamento do body carregar o script  (ctrl em cima de um script que não existe é atalho para criação)
+
+
+---
+Vetores e objetos (apresentando os métodos)
+
+criando array
+let nomeVetor= [1,true] 
+
+string usam apóstrofo
+array permite guardar diversos tipos de variáveis
+
+chamar array:
+nomeVetor(0) 
+
+
+métodos do array:
+forEach,push, pop, shift, unshift, indexOf, splice, slice
+
+array. <- para chamar o método
+
+[Criando um objeto do JS]
+propriedades de um objeto <- atributos?
+
+
+
+--- 
+Estruturas condicionais
+
+uso do if, else if, else
+Simbolo de diferente com facilidade (como?)
+
+Aninhamento de if
+
+
+if ternário, verificação em uma unica linha. Condição e instrução na mesma linha
+
+switch/case no JS
+
+
+laços: for, for/in, for/of, while, do/while <- apresentando aplicações em arrays e objetos
+
+---
+Funções e particularidades
+
+
+criando função e chamando-a
+{} <- bloco de instrução
+
+
+--
+aprofundamento em funções
+
+funções declarativas
+expressões de funcões <- nome da variavel atribuido à função, nome da função é opcional
+arrow function
+
+
+criando uma calculadora com alert  <- melhor fazer com switch
+
+

@@ -81,5 +81,40 @@ interagindo com elementos do DOM
 
 
 
+DOM -> Document object model
+estrutura dos elementos dentro da janela web
+[pesquisar por árvore DOM]
+
+projeto: 
 
 
+atalho console Chrome
+percorrendo pelos elementos pelo console
+uso do getElementsByTagName
+mudando a cor de um h1 pelo console
+
+
+
+---
+COLOCANDO EM PRÁTICA
+
+[Desafio:]
+Criando um contador
+usando o DOM e modificando valor ao clicar em + ou - no html
+Criação função no js
+Ler no github alguns desafios
+
+
+
++Desafio To-do list
+https://github.com/stebsnusch/introducao-ao-javascript
+
+----
+
+MERCADO DE TRABALHO
+
+frameworks e bibliotecas (permitem maior agilidade no desenvolvimento): 
+react, angular, jQuery e vue.js
+
+
+Consulte a documentação do Mozilla, W3c
