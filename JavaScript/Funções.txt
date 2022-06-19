@@ -1,0 +1,78 @@
+TIPOS DE FUNÇÕES
+
+palavra reservada: 
+function nome(parametros){
+}
+
+uma variável pode armezenar uma função
+Função anônima
+
+const soma = function(a,b){
+	return a+b;
+}
+
+
+função autoinvocável (conhecida como IIFE
+https://prnt.sc/xxmb1BSs4h-D
+https://prnt.sc/DnyvqAya51qy
+
+
+Callback, quando passamos uma função como parametro de outra
+
+
+----------------------------------
+PARÂMETROS
+
+
+numero como valor default de um parametro
+https://prnt.sc/29Sw1PSpXk42
+
+[praticar]
+arguments <- retorna todos os argumentos inputados em array
+spread <- lidando separadamente com elementos https://prnt.sc/Rwi8CqCzvRyB
+rest <- combina elementos em um array https://prnt.sc/INceiTocYdSu
+objetos <- https://prnt.sc/82OLadd1cAJQ
+
+
+
+
+
+
+
+
+
+---------------------------------
+LOOPS
+é possível armazenar condições em variáveis
+https://prnt.sc/LVcIXNetWoqU
+
+
+uso do pop dentro de for
+for in vs for of
+while 
+do while
+
+
+---------------------------------
+THIS
+se refere ao objeto pai
+exemplos aplicação: https://prnt.sc/y3QG0Zz-kzLd
+
+diversas aplicações this (em um arquivo fazio, função anonima, console do navegador)
+
+[praticar]
+Uso do this com
+.call
+.apply
+.bind
+
+
+--------------------------------
+ARROW FUNCIONS
+
+sintaxe da arrow function 
+não precisa pedir o return
+não faz hoisting
+
+
+Há restrições para seu uso. 

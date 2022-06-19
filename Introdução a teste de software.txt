@@ -1,0 +1,24 @@
+wyllyancaetanodev
+
+
+Falhas podem fazer com que perdamos clientes no software
+
+
+teste, com entrada e saída esperada
+teste de software não identifica 100% dos problemas
+
+
+modelo cascata em teste de software
+
+diferença entre:
+defeito, erro ou falha
+
+Verificação: estramo construindo o sistema certo?
+validação: confirmar se está construindo o software certo
+
+
+
+
+
+FONTES:
+

@@ -1,0 +1,60 @@
+
+Precisa instalar uma NPM na máquina [pesquisar sobre]
+biblioteca js para criar interface ao usuário
+
+versão no vídeo 16.8
+
+--
+criado em 2011 por jordan walk
+foi utilizado no mural de noticias do facebook
+baseado no XHP (framework do php)
+
+feed do facebook estava com problemas devido seu tamanho.
+
+2012 - utilizado no instagram
+Antes era um ferramenta exclusiva do facebook
+2013 anuncio da liberação  (JS conf US)
+
+2015 - react native / 
+
+
+netflix utiliza react 
+grande player por trás, facebook
+é uma biblioteca não um framework
+
+ecosistema muito grande
+
+Vanilla - JS puro
+
+web frameworks mais utilizados em 2019:
+jQuery, react, angular, ASP.NET...
+
+
+JS permite trabalhar com time mais enxuto
+Pode ser utilizado em qualquer plataforma, 
+back e front end
+
+--
+
+usando npm para configurar 
+
+
+O que é JSX?
+Função que permite retornar um HTMl
+
+
+Chamar JS com CHAVES 
+
+uso do .render
+Mistura de html e JS
+uso do:
+getElementBy ID
+.render
+
+Somente funções resolve muito dos problemas
+
+
+--
+Renderização dos elementos
+
+
