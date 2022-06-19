@@ -83,6 +83,64 @@ Há muitos métodos [consulte a documentação]
 Numbers
 
 
+operadores básicos no console do navegador
+uso de métodos do Math no JS
+--
+array
+declarando array
+
+let vetor = []
+manipulando array com o uso: 
+.pop
+.push
+.shift
+.unshift
+.includes
+.every
+.some
+
+
+--
+objetos
+estrutura 
+
+let pessoa = {
+	chave: valor
+}
+
+
+pode pedir o retorno com
+pessoa.chave ou pessoa.["chave"]
+em colhetes geralmente utilizado para mandar uma variável como valor de um objeto
+
+--
+Empty, null e underfined
+
+empty <- nenhum valor dentro (declarar variável e não colocar nada dentro)
+null <- quando de proposito é sem valor 
+undefined <- Se quer foi declarado
+
+
+--
+
+ATIVIDADES PRÁTICAS
+Palíndromo
+
+[consultar aula]
+condição para ver se dado inputado não é uma string
+
+uso do split para separar letras da string, reverse para inverter toda lista e join para tornar a lista uma string novamente
+
+2 exemplos de solução para o problema
+
+
+--
+[Desafio array pares]
+
+
+https://github.com/stebsnusch/basecamp-javascript
+
+
 
 
 
