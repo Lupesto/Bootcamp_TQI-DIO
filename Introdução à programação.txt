@@ -209,3 +209,62 @@ necessária uma condição de parada, para que não haja loop infinito
 Vetores e matrizes
 
 
+
+
+
+
+--
+Introdução à linguagem de programação
+Cronologia dos principais acontecimentos 
+
+toda evolução tecnologica inicia-se pelo hardware
+
+segunda guerra mundial e explosão nas pesquisas em computação
+
+charles babbage - conceitos software <- prototipo que não funcionava, 
+Claude Shanon - algebra booleana
+alan turing - segunda guerra mundial, descriptação mensagem do inimigo (conhecido como pai da computação. Questionamentos sobre inteligência artificial
+Claude shanon - algebra booleana 
+1888 - maquina de cartões no censo americano, criador da IBM
+
+
+Mesmo periodo do ENIAC -> IBM Harvard Mark 1
+
+PRINCIPAIS MARCOS
+Eniac era programador por fios
+edvac,
+intel 8080
+linguagem basic microsoft
+criação apple
+apple 2
+IBM PC
+Apple 3
+Apple Lisa
+Apple 3
+windows 1.0
+Windows 2000
+windows xp
+
+
+
+
+
+
+1949 -> primeira linguagem, linguagem de máquina, assembly
+1950 primeiras linguagens:
+fortran, cobol
+Anos 60 e 70
+C, prologo, machine learning
+
+em 90 surgimento linguagens alto nivel
+python, java, C#, JS
+
+
+Cada era possui seus desafios
+
+
+-----
+
+Como um computador entende um programa?
+
+
