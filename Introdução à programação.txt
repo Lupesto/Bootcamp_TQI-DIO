@@ -265,6 +265,96 @@ Cada era possui seus desafios
 
 -----
 
-Como um computador entende um programa?
+--
+Como um computaador entende um programa?
+
+
+Diferença entre traduzido e interpretado
+
+tradução = copilação
+traduz codigo de alto nivel para baixo nivel (linguagem de maquina)
+
+interpretação - programa fonte executado diretamente
+python é uma linguagem interpretada
+
+mais lento
+
+interpretada -> geralmente linguagem mais facil de se programar,mais lenta, 
+
+traduziida -> c++, java
+--
+
+Caracteristicas de um programa
+
+facilidade de leitura
+baixo custo (programa deve ser desenvolvido pensando no consumo dos recursos oferecidosm exemplo desempenho)
+confiabilidade (fazer o que foi programador fazer)
+
+
+python peca na performace, mas possui boas bibliotecas para dados
+
+
+--
+Léxica <-
+Scanner. Leitura do programa fonte
+Analisa no código palavras reservadas, strings, objetos
+Elimina comentários, caracteres em branco
+
+sintaxe- estrutura para codificação
+cada linguagem possui uma
+
+semântica, significado. Exemplo = é válido na sintaxe de uma linguagem, porém de de atribuição. Em um if devemos utilizar o == para não dar problema de semantica
+
+-- 
+paradigmas de programação
+
+
+São eles:
+Orientação a objetos
+procedural
+funcional
+estruturado
+computação distribuida
+lógico
+
+
+
+paradigma estruturado
+sequencia, decisao e interação
+instruções executadas em sequencia
+
+C dominou o mercado até o POO
+uso no aprendizado. Uso para entender o de "baixo dos panos"
+
+
+POO,
+analago ao mundo real
+objetos possuem: caracteristicas especificas, comportamentos e estados
+ex: o que tenho, o que sou capaz de fazer, como faço
+
+caneta:
+o q tem?
+mode, cor, carga, ponta
+
+o que é capaz de fazer?
+escrever, deseenhar, rabiscar
+
+
+eestados:
+Tamapda, destampa e em uso
+
+---
+
+
+PRIMEIRO CONTATO COM A PROGRAMAÇÃO
+
+
+site: portugol ide online
+
+
+dificuldade em fixar algum conteúdo?
+escreva manualmente
+
+recomendação dos livros da Pearson
 
 

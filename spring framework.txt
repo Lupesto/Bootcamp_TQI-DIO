@@ -1,0 +1,37 @@
+
+
+
+
+open source
+framwork
+Inversão de controle/injeção de dependência
+
+estrutura por módulos, especificos para sua finalidade
+
+iteração com banco de dados
+
+
+Spring vs Java EE
+
+
+Java exige muito código para chegar em alguns resultados, spring é um atalho
+
+
+Inversão de controle:
+container inicializado para obter todas as referencias e config necessárias
+
+injeção e dependência, beans, scopes,prototype, http, auto-wired [??]
+
+
+---
+spring - base injeção de dependências
+Springboot - config automática
+
+
+Starters <- eliminiação de código
+existem starters para cada proposta
+
+
+[Consultar referências]
+
+não necessidade do new em nossos objetos
