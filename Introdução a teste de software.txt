@@ -9,12 +9,13 @@ teste de software não identifica 100% dos problemas
 
 
 modelo cascata em teste de software
+Não se voltava em tarefas anteriores
+pessoas especificas para testes
 
-diferença entre:
-defeito, erro ou falha
+desenvolvimento ágil-> ir e voltar em diversas tarefas no desenvolvimento de software
+Funcionários trabalham em diversas áreas
 
-Verificação: estramo construindo o sistema certo?
-validação: confirmar se está construindo o software certo
+
 
 
 
@@ -23,3 +24,115 @@ validação: confirmar se está construindo o software certo
 FONTES:
 
 
+--
+Conceitos básicos
+
+
+
+diferença entre:
+defeito, erro ou falha
+Falha -> cenário inexperado que retorna algum erro ao usuário. Por trás possui algum erro.
+Erro -> falha humana perante o sistema
+defeito -> bug. Erro tecnico. Instrução de código incorreta
+
+
+Verificação: estamos construindo o sistema certo?
+validação: confirmar se está construindo o software certo
+
+
+---
+
+niveis e tecnicas de testes
+
+teste unitário: testes das pequenas unidades de software
+validar cada parte do software
+validar entradas e saidas do método
+Ferramentas: Junit, phpunit, Jest
+
+
+teste de integração: validar toda estrutura do software
+bateria de testes,memória, consumo de api...
+
+teste de sistema:
+Software minimamente pronto, em que podemos testar abrindo-o , simulando o usuário
+
+teste de regressão:
+Automatização
+Selenium <-
+Testes em páginas
+
+
+existem testes:
+Alpha, beta e cannary
+alpha - teste mais inicial possível
+beta - maior quantidade de usuários, não 100% estável
+cannary - Só algumas pesssoas utilizando a versão mais nova (PBE do LOL ou um LTS)
+
+[Significado de deploy]
+
+Teste de aceitação:
+feedback do usuário
+
+Testes são construidos conforme as especificações do cliente
+
+
+
+[anotar referências]
+
+--
+Técnicas de teste
+
+cada nivel de teste possui tecnica diferente
+~
+caixa branca:
+teste estrutural
+saber como funciona o código por baixo dos panos
+acesso ao código fonte
+Validar dados, cntroles, fluxos e chamadas
+
+
+Caixa preta:
+Teste funcional (com base no que o usuário pediu)
+Sem acesso ao código fonte 
+abertura só do software final
+Sem entender o que está por trás
+
+
+caixa cinza:
+mescla de ambas as tecnicas (caixa branca  e preta)
+saber o código + fazer testes do produto final
+
+[PRESSMAN] principal referência para a área
+
+
+
+---
+
+Testes não funcionais
+
+Não relacionado a expectativa de negócio / regras de negócio
+
+ex: segurança, perfomance, infraestrutura
+Qualidade do sistema, mas não o desejo do usuário
+mais tenico
+
+Teste de carga: verificar volume de acessos que o sistema/servidor/software suporta
+como ter certeza que o software suporte milhares de usuários?
+login com milhares de acessos
+ex: gatting, apache
+
+Teste stress:
+submeter o software a condições extremas
+avaliar comportamento do software em seu limite
+Fazer com que o software quebre
+
+
+teste de segurança:
+segurança cibbernética, visa detectar vulnerabilidades
+
+
+
+
+---
+
+Pirâmide de testes
