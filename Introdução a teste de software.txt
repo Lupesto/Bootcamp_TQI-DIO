@@ -135,4 +135,59 @@ segurança cibbernética, visa detectar vulnerabilidades
 
 ---
 
-Pirâmide de testes
+Pirâmide de testes <- inicio pelos testes unitários, a caminho dos testes de UI e manual
+niveis de testes
+testes unitários são mais rápidos
+
+
+antipattern
+[consultar bibliografia]
+
+testes  manuais são muito caros.
+Os testes exploram diversos cenários
+
+--
+Bibliografia:
+https://engsoftmoderna.info/cap8.html
+https://sttp.site/
+DELAMARO, Márcio Eduardo; MALDONADO, José Carlos; JINO, Mário. Introdução ao teste de software, 2016.
+PRESSMAN, R. S.; Software Engineering: A Practitioner's Approach, 7 ed., McGraw Hill, 2010
+https://martinfowler.com/articles/practical-test-pyramid.html
+
+https://blog.betrybe.com/tecnologia/requisitos-nao-funcionais/
+http://www.facom.ufu.br/~abdala/DAS5312/Testes.pdf
+https://pt.stackoverflow.com/questions/248318/qual-%C3%A9-a-diferen%C3%A7a-entre-um-teste-de-carga-e-um-teste-de-stress
+https://pt.stackoverflow.com/questions/216571/o-que-%C3%A9-um-teste-de-stress/216574#216574
+https://www.devmedia.com.br/testes-de-desempenho-carga-e-stress/26546
+https://hackr.io/blog/top-10-open-source-security-testing-tools-for-web-applications
+
+
+SOMMERVILLE, I.; Software Engineering, 8. ed., Addison-Wesley, 2007
+Lewis, W.E.; Software Testing and Continuous Quality Improvement; Boca Raton: Auerbach; 2000
+
+
+https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/levels_of_test_8A878577.html
+https://edisciplinas.usp.br/pluginfile.php/384739/mod_resource/content/1/Aula%205_2014_Tipos-de-teste-software-v2.pdf
+http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/guidances/supportingmaterials/tecnicasTestes_8AB32ED1.html
+PRESSMAN, R. S.; Software Engineering: A Practitioner's Approach, 7 ed., McGraw Hill, 2010
+SOMMERVILLE, I.; Software Engineering, 8. ed., Addison-Wesley, 2007
+
+
+Delamaro, M.; Maldonado, J; Jino, M.; Introdução ao Teste de Software. Editora Campus, 2007.
+https://ferhenriquef.com/2012/10/24/as-diferenas-entre-defeito-erro-e-falha/
+https://sttp.site/chapters/getting-started/testing-principles.html
+https://pt.stackoverflow.com/questions/204769/qual-diferen%C3%A7a-entre-falha-defeito-e-erro
+
+
+https://medium.com/@miguelf_39043/optimizing-projects-with-agile-software-development-ef8f400d0f8c
+https://medium.com/contexto-delimitado/o-modelo-em-cascata-f2418addaf36
+
+
+
+http://www.garcia.pro.br/EngenhariadeSW/artigos%20engsw/teste/teste%20de%20software%20-%20artigo%201%20-%20rev1%20-%20introducao%20a%20teste%20de%20sw.pdf
+https://www.comunicacaoecrise.com/site/index.php/artigos/1002-falha-na-tecnologia-da-ba-transforma-aeroportos-britanicos-num-caos
+https://capitalcode.com.br/blog-post/11/O-BUG-de--300-milh%C3%B5es-de-d%C3%B3lares
+https://www.istoedinheiro.com.br/e-commerce-perdem-pelo-menos-r-239-milhoes-durante-a-black-friday/
+https://agora.folha.uol.com.br/grana/2021/06/caixa-tem-e-aplicativo-da-caixa-economica-apresentam-falhas.shtml
+
+
