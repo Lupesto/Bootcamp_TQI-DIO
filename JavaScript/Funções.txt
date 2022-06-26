@@ -55,7 +55,7 @@ do while
 
 ---------------------------------
 THIS
-se refere ao objeto pai
+se refere aos atributos da classe pai
 exemplos aplicação: https://prnt.sc/y3QG0Zz-kzLd
 
 diversas aplicações this (em um arquivo fazio, função anonima, console do navegador)
@@ -67,12 +67,26 @@ Uso do this com
 .bind
 
 
+
 --------------------------------
 ARROW FUNCIONS
 
 sintaxe da arrow function 
+outra maneira de escrever funções, menor. 
+Após seta temos o return 
 não precisa pedir o return
+https://prnt.sc/n3o1xR1k0Z9J
+
 não faz hoisting
 
 
-Há restrições para seu uso. 
+Há restrições para seu uso, exemplo:
+this -> sempre do objeto global
+não tem o objeto arguments
+Construtor não pode ser utilizado
+
+para métodos só utilize a sintaxe comum.
+
+[fazer exercício do github instrutora]
+
+
