@@ -1,0 +1,29 @@
+
+consumindo APIs
+
+o que é assincrono?
+sofware exige retorno de quem está consumindo.
+ex> estudantes fazendo aulas em seu próprio ritmo
+
+
+promises?
+analogia com ingressos
+ingresso é uma promisse, caso ocorra algum imprevisto ele entra no estado rejected, caso consiga vê-lo entrará em resolved
+
+
+estados da promise:
+pending, fulfilled e rejected
+
+[buscar por estrutura de uma promise]
+
+.then
+
+https://prnt.sc/iKYJB4eg23Aa
+
+
+async e await
+https://prnt.sc/1yFwZnVcBeRx
+
+--
+Consumindo APIs
+

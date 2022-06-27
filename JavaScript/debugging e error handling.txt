@@ -1,0 +1,35 @@
+tratamento de erros e exceções
+
+ECMAScript error-
+quando alguma variavel não foi declada
+ocorre em tempo de execução
+
+
+DOMException -
+erros relacionados à página da web
+
+
+--
+
+throw -
+parecido com um return, porém gerador de erro no console
+
+try /catch -
+similar ao de python
+
+catch permite trabalhar caso ocorra um erro
+
+
+Finally - 
+independente se der erro ou não o bloco de código é executado
+
+--
+Criando erro personalizado
+new Error(message) <- [consultar documentação]
+
+.name
+.stack
+
+--
+
+Atividade em stebnusch basecamp
