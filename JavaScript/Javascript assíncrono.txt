@@ -27,3 +27,20 @@ https://prnt.sc/1yFwZnVcBeRx
 --
 Consumindo APIs
 
+apis podem se comunicar com aplicativos/outras apis
+
+.json <- notação objeto em js
+formato de uma api
+
+
+metodo fetch
+retorna uma promise
+operações no banco de dados
+
+https://prnt.sc/mCJcMDiQnwQG
+
+--
+github com atividade proposta
+imagem gatos aleatórios
+
+

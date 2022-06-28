@@ -1,0 +1,35 @@
+paradigmas programação:
+imperativos e declarativos
+
+objetos e propriedas
+pilares:
+herança, polimorfismo, encapsulamento e abstração
+
+abstração:
+especificação de uma generalização
+simplificar
+
+
+heranças:
+herdam propriedades dos pais e possui suas proprias caracteristicas
+
+
+encapsulamento:
+Cada classe possui propriedades e métodos individuais
+
+
+Polimorfismo:
+Herdar classe mas se comportar de maneira diferente
+
+
+estrutura classe 
+https://prnt.sc/Iel3qjRqKo8n
+
+nova sintaxe js criação objetos
+https://prnt.sc/RJU8_E7scbQE
+
+métodos prototype:
+métodos da classe superior, exemplo arrays possuem os métodos superiores
+https://prnt.sc/kSRtJY_UaKG0
+
+
