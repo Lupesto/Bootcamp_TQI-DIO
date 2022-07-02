@@ -1,0 +1,28 @@
+DOM-
+padrão modificar elementos html
+
+consultar image árvore
+ex elemntos estruturados
+
+html> body >  a/h1...
+
+
+
+bom -
+browser object model
+arvore de dependencias no navegador
+
+---
+
+manipulando elementos dom.
+html possui tags, id, classe
+
+pelo js podemos acessar esses elementos.
+
+getElement e querySelector
+https://prnt.sc/wPDqqS2ExJqH
+
+--
+
+https://prnt.sc/2jv6EgZZR7lw
+
