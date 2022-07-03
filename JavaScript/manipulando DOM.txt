@@ -17,12 +17,34 @@ arvore de dependencias no navegador
 manipulando elementos dom.
 html possui tags, id, classe
 
-pelo js podemos acessar esses elementos.
+pelo js podemos acessar esses elementos e manipula-los.
 
 getElement e querySelector
 https://prnt.sc/wPDqqS2ExJqH
+https://prnt.sc/2jv6EgZZR7lw
+
+selecionando um elemento e alterando css:
+https://prnt.sc/vmsHp6HJh-wr
+
 
 --
+Eventos
 
-https://prnt.sc/2jv6EgZZR7lw
+interações com usuário 
+
+tipos:
+eventos de mouse- mouseover e mouseout (similar ao hover)
+
+eventos de click - one click e dbclick
+
+eventos de atualização- change e load (assim que tela carregar ou após mudança de elemtnos)
+
+existe uma função chamada addEventListener (escutador) colocar tipo de evento e o que fazer caso evento for acionado.
+
+
+exemplo:
+https://prnt.sc/m0AyGOnrccLw
+
+
+
 

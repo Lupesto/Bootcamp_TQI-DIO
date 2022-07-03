@@ -1,0 +1,8 @@
+desafio jogo memória:
+
+Contador (combinações que faltam)
+sumir cards acertados
+acelerar animação
+caso tudo completo lançar mensagem de parabéns
+
+botão reiniciar jogo
