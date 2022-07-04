@@ -1,0 +1,37 @@
+
+
+
+Escreveu um livro só sobre OO
+400 páginas sobre o tema
+
+obj: compreender todos os conceitos 
+
+paradgima estruturado vs paradigma orientado a objetos:
+
+POO -  representar de maneira mais realista o mundo real
+
+no estruturado temos maior foco nas funções e dados (baixo nivel)
+em POO - criação de entidades
+
+PE - foco em "COMO FAZER"
+POO - foco no "O que fazer". Permite mais no foco de pensar no problema e menos na ferramenta
+
+vantagens POO :
+Funcionalidades bem difinidas (coesa)
+Melhor acoplamento 
+Diminuição gap semântico (torna o mundo real e virtual mais próximos)
+coleto de lixo (liberação da memória automaticamente)
+
+
+--
+fundamentos
+abtração 
+reuso
+encapsulamento
+
+
+[exercício fundamentos]
+
+
+--
+
