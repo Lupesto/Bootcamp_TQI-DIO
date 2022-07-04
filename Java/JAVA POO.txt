@@ -34,4 +34,70 @@ encapsulamento
 
 
 --
+classe->
+definição
 
+estrutura define comportamento de seus objetos com atributos e metodos
+
+
+concreto e abstratos podém ser representados em objetos
+ex: bola e venda
+
+[exercicio criando classe carro]
+
+
+--
+atributos ->
+características de um objeto
+
+criados em classes.
+as variáveis são dados que geralmente mudam, inconstantes, instáveis.
+
+nomear atributos com substantivos e adjetivos
+contexto deve ser considerado
+
+
+--
+
+Serviços e ações que as classes vão oferecer 
+ex: carro - ligar
+venda - calcular total/lucro
+
+gaste seu tempo criando métodos que utilizará no momento.
+
+Na hora de criar seus métodos utilize verbos
+
+Java e C# são muito parecidos
+
+métodos especiais:
+Construtor e destrutor
+construtor -> cria objetos. Pode prover valores iniciais / métodos
+
+destrutor -> 
+acabar com um objeto para limpar memória
+é uma boa prática
+
+mudar assinatura método,
+mesmo nome do método e permitir outros parâmetros
+https://prnt.sc/jHSWZbLo5OBC
+
+
+python -> é uma linguagem interpretada e dinâmica.
+
+pq usar sobrecarga?
+https://prnt.sc/jHSWZbLo5OBC
+
+--
+
+Carro carro = new Carro(); <- construtor
+
+mensagem -> solicitação do método
+
+
+Prossiga o conheicmento em:
+https://prnt.sc/JIJ6fUGRfuaK
+
+
+--
+
+Heranças
