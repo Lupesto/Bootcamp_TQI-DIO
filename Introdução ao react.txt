@@ -58,3 +58,53 @@ Somente funções resolve muito dos problemas
 Renderização dos elementos
 
 
+reactDom.render()
+
+props,
+extração e composição de componentes,
+--
+Ciclo de vida em react
+
+
+react possui diversas ferramentas
+--
+webpack
+
+npm instalado
+entry e output
+loaders plugins
+
+enlist
+
+
+--
+
+
+js es5?
+pt-br.reactjs
+
+renderização condicional (apresentar um botão caso verdadeira)
+
+variáveis de elementos,
+if inline com operador lógico
+evitando que um elemento seja renderizado
+
+
+--
+
+Listas e chaves
+
+Renderizando multiplos componentes
+componente de lista básico
+chaves
+extraindo componentes com chaves
+chaves devem ser únicas apenas entre elementos irmãos
+
+´´--
+manipulando eventos
+
+mock
+ui
+hierarquia de componentes
+
+

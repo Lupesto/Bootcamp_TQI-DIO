@@ -101,3 +101,56 @@ https://prnt.sc/JIJ6fUGRfuaK
 --
 
 Heranças
+
+criação de entidades a partir de outras
+
+relacionamento classes pai, filhos (subclasse)
+
+o extends em java.
+
+herança simples:
+quando as classes filhas heram algo de uma só classe mãe
+
+herança multipla:
+o oposto, classe filha possui duas classes mães ou mais
+
+java e C# não possuem herança multipla
+python e C++ possuem
+
+--
+upcast e downcast [ver exemplo de código java]
+upcast -> classe superior
+downcast -> classe inferior
+
+python não possui upcast  nem downcast
+
+--
+polimorfismo
+
+mesmo método se comportar diferente
+de acordo com uma subclasse se comportar de maneira diferente o método da mãe
+
+
+sobreescrita: 
+mesmo método "podendo" sobreescrever um método
+pode ser que em algumas das classes filhas você faça modificações no método
+
+
+--
+
+Associação [consultar bibliografia]
+
+relação de objetos
+estrutural e comportamental
+dependência de uma classe com a outra
+
+agregação:
+uma das partes pode existir sem o outro
+
+comportamental: pode usar ou não uma outra entidade
+
+herança -> é mais flexivel que associação
+
+--
+interface
+

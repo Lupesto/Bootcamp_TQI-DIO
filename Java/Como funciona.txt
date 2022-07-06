@@ -1,0 +1,4 @@
+scan.nextInt();
+
+
+observar tipo de saída solicitada. ex: se é um double, string ou int 
