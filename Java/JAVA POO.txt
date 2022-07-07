@@ -153,4 +153,53 @@ herança -> é mais flexivel que associação
 
 --
 interface
+classe se comprometendo a realizar todos os comportamentos de uma interface
+
+python não permite interface
+
+https://prnt.sc/-sb49YC7O1re
+
+Conteúdo para ir mais a fundo:
+https://prnt.sc/FFh9Zt1Mv_2x
+
+
+--
+pacotes 
+tornando a aplicação mais organizada
+organizar as classes
+
+https://prnt.sc/APRzT9txDVqT
+
+
+--
+Visibilidades
+
+fica sob atributos e métodos
+
+por padrão as visibilidades são públicas
+em python tudo é público
+
+Private:
+Só visivel dentro da classe, em nenhum outro lugar
+
+protected:
+Dentro da classe, pacoete e subclasses
+
+public:
+Em qualquer lugar
+
+Qual usar?
+proteção dos dados <- privado
+de acordo com a necessidade
+só com estudos saberemos qual utilizar.
+
+--
+conclusão 
+
+precisamos de padrões de projetos
+boas práticas: SOLID, técnicas de programação, como melhor seu código...
+
+Refatoração <- como fazer 
+UML <- 
+frameworks - facilitam nosso trabalho, ganho de tempo.
 

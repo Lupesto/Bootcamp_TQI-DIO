@@ -1,0 +1,59 @@
+
+
+
+Requisitos:
+MYSQL [Sigla SGBD] e noções SQL
+JDK1.8
+uma IDE para java
+Gradle 5.3.1 <- para baixar o JDBC
+
+
+
+
+--
+
+Configurar banco de dados para se comunicar com aplicação java
+
+O que é Banco de dados?
+Armazenamento de dados de maneira estruturada 
+Tornando acesso e atualização de maneira mais rápida
+Aumento da eficiência computacional (menor consumo de memória, processamento e tempo)
+
+
+Como configurar?
+Instalar MySQL
+Configurar USuário e senha
+MySQL Workbench <- interface para trabalhar 
+Criar banco de dados
+Criar uma tabela
+
+(explicação professor foi em linux)
+
+Criação de um banco de dados por linha e outro pela área de trabalho SQL
+
+
+--
+
+JDBC <- API java com diversas classes e interfaces para se comunicar com banco de dados
+
+Pega drive e cria uma conexão com BD
+
+Sem o JDBC você precisaria conhecer o protocolo dos bancos de dados existentes e fazer modificações
+
+Em aula será utilizado as classes:
+DriverManager e Connection
+
+Colocar o código do MVN para instalar a dependência
+
+apresentação das 2 formas de escrever o mesmo código
+
+proposta de exercício
+
+---
+
+Apresentação das declarações SQL
+inserindo, deletando código.
+--
+
+
+
