@@ -1,0 +1,38 @@
+Projeto banco
+
+Abstrair o problema
+
+Criação classe banco, cc e CP
+
+Definindo atributos e métodos para as classes
+
+@Data???<- para que serve?
+
+Colocando getters e setters em alguns métodos
+classe mãe de CC e CP é a classe conta
+
+interface:
+Classe abstrata com todos os métodos abstratos
+
+
+redundância utilizar o public nos métodos da interface
+
+Classe abstrata não pode ser instanciada
+
+mudando a visibilidade dos atributos para protect, permitindo acesso das classes filhas
+
+criando uma constante no java, 
+sequencial na classe conta.
+
+---
+[Desenvolvendo saque, depósito, transferência e extrato]
+
+--
+desafio de projeto
+
+Evoluir o projeto
+incluir novas classes, atributos e métodos
+listar todos os clientes
+
+Incluir lombok ao projeto
+
