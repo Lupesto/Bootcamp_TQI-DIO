@@ -55,5 +55,8 @@ Apresentação das declarações SQL
 inserindo, deletando código.
 --
 
+JPA, implementações e linguagem de consulta
+
+JPA só interfaces
 
 

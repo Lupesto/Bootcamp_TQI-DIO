@@ -27,6 +27,16 @@ sequencial na classe conta.
 ---
 [Desenvolvendo saque, depósito, transferência e extrato]
 
+uso do this é opcional
+desenvolvendo os métodos para saque, transferência e deposito
+
+usando extract method na IDE
+
+interface podem ser usadas para criação dos objetos ou esperada como parametro.
+
+inteface dá um resumo de tudo que conta pode fazer.
+
+
 --
 desafio de projeto
 
@@ -35,4 +45,7 @@ incluir novas classes, atributos e métodos
 listar todos os clientes
 
 Incluir lombok ao projeto
+
+--
+comando git status
 
