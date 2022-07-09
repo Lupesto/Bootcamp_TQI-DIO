@@ -1,36 +1,45 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-import java.util.Scanner;
-/**
- *
- * @author Lucas
- */
-public class teste {
-    
+// TODO: complete os espaços em branco com sua solução para o problema
+// Abaixo segue um exemplo de código que você pode ou não utilizar
+import java.util.*;
 
 
+public class teste{
+	 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
 
-        String x1y1 = scan.nextLine();
-        //System.out.println(x1y1);
-        //String ascan = scan.nextLine();
-        String x2y2 = scan.nextLine();
-        //System.out.println(x2y2);
+        //a classe Scanner auxilia na leitura dos dados de entrada
+        System.out.println("input Linha: ");
+        Scanner leitor = new Scanner(System.in);
+        
+        
+        int QT = Integer.parseInt(leitor.nextLine());
 
-        String[] aux = x1y1.split(" ");
-        String[] aux1 = x2y2.split(" ");
+        String linha1[], linha2[], nome1, escolha1, nome2, escolha2;
+        int N, M;
 
-        float x1 = Float.parseFloat(aux[0]);
-        float y1 = Float.parseFloat(aux[1]);
-        float x2 = Float.parseFloat(aux1[0]);
-        float y2 = Float.parseFloat(aux1[1]);
+        for (int i = 0; i < QT; i++) {
 
-        //System.out.println("(" + x2 + " - " + x1 + ")² + ( "+ y2 + " - " + y1 + ")²");
-        System.out.printf("%.4f",  Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
+            //quebra string em várias substrings a partir de um caracter
+            linha1 = leitor.nextLine().split(" ");
+            linha2 = leitor.nextLine().split(" ");
 
+            N = Integer.parseInt(linha2[0]);
+            M = Integer.parseInt(linha2[1]);
+
+            nome1 = linha1[0];
+            escolha1 = linha1[1];
+
+            nome2 = linha1[2];
+            escolha2 = linha1[3];
+
+            
+            if (((N + M) %2 ==0 && escolha1.equalsIgnoreCase("PAR")) || ((N + M) %2 ==1 && escolha2.equalsIgnoreCase("IMPAR"))) {
+                System.out.println(/* */nome1    );
+                    
+            }else{
+            System.out.println(nome2);
+            } 
+        }
     }
-}
 
+}

@@ -88,4 +88,14 @@ exercicio proposto
 No lado direito da tela lista de funções que devemos utilizar.
 
 
+--
+
+equals e hashcode:
+sobreescrevendo
+[não detalha o motivo]
+
+PAREI EM:
+ordenação dos elementos, set.
+
+
 
