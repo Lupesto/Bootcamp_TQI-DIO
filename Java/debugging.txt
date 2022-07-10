@@ -1,0 +1,40 @@
+erros de programação - bugs
+encontrar / corrigir bugs = depuração / debugging
+
+depuração é algo trabalhoso
+a dificuldade varia com ambiente de desenvolvimento, linguagem de programação , depuradores disponíveis e outras ferramentas
+
+
+categorias de erro:
+Erros de Sintaxe 
+Erros de Semântica (lógica de código errada, código não faz aquilo que se esperava)
+
+
+depuradores controlam etaps de execução do programa
+
+[pesquisar sobre pilha de execução e stack trace]
+
+[Consultar documentação da IDE sobre depuração]
+
+método ->
+Thread.dumpStack();
+apresenta a pilha de execução dos métodos
+
+
+breakpoint da IDE
+pontos vermelhos, 
+rodar em modo debugging o código
+
+[fazer código simples para testar]
+
+opções no método bugging:
+stepOver -> pular linha
+stepInto -> entrar dentro do método
+stepOut -> saída de dentro do método
+
+[não explica sobre evaluate, campo para colocar expressão]
+
+
+parte de threads na IDE
+permite visualizar como o programa está empilhando os métodos
+
