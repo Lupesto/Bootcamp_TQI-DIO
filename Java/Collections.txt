@@ -98,4 +98,28 @@ PAREI EM:
 ordenação dos elementos, set.
 
 
+--
+map:
+elementos únicos para cada valor
+manipulando dicionário
+
+
+--
+
+Stream 
+classe anonimas
+
+
+Link de aulas:
+Aprenda o que são Estrutura de Dados e Algoritmos
+https://web.dio.me/course/aprenda-o-que-sao-estrutura-de-dados-e-algoritmos/learning/a99f9576-69e9-4187-b3a7-e7ada5e5d6ad?back=/track/inter-java-developer&bootcamp_id=a531bc7a-f29e-4293-85eb-e4efd6072f2b
+
+
+
+Implementando Collections e Streams com Java
+
+https://web.dio.me/course/aprenda-collection-e-streams-na-linguagem-java/learning/c9f8940a-be04-4aa9-bdeb-ac3607ed8eec?back=/track/inter-java-developer&bootcamp_id=a531bc7a-f29e-4293-85eb-e4efd6072f2b
+
+Desenvolvimento avançado em java
+https://web.dio.me/course/desenvolvimento-avancado-em-java/learning/ac0c022e-a9e7-4898-abea-a9844d318925?back=/track/inter-java-developer&bootcamp_id=a531bc7a-f29e-4293-85eb-e4efd6072f2b
 
