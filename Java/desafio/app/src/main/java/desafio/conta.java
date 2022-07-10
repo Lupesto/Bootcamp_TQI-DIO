@@ -8,14 +8,6 @@ package desafio;
  *
  * @author Lucas
  */
-public class desafio1 {
-    public static void main(String[] args) {
-        
-        int[] idades= {1,2,99};
-        for (int i = 0; i < idades.length; i++) {
-            System.out.println(idades[i]);
-        }
-        
-        
-    }
+public class conta {
+    
 }
