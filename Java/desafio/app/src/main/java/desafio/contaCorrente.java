@@ -8,6 +8,15 @@ package desafio;
  *
  * @author Lucas
  */
-public class contaCorrente {
+public class contaCorrente extends conta {
+
+    public contaCorrente(String nome) {
+        super.nome = nome;
+    }
     
+    
+    public void imprimirExtrato(){
+        System.out.println("== Extrato Conta Corrente ==");
+        imprimirInfos();
+    }
 }
