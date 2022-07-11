@@ -10,3 +10,6 @@ pilha
 queue
 
 
+Pesquisar pelos termos.
+Em vídeo só apresenta aplicações
+
