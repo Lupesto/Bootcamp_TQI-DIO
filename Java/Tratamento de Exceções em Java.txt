@@ -1,0 +1,25 @@
+orienta consultar a documentação sobre exceções
+
+apresentação das classes e subclasses dos erros comuns no java.
+Existem exceções que a IDE não exige o tratamento
+--
+img árvore
+error é irrecuperável
+em amarelo é recuperável
+
+
+
+--
+
+Começar leitura de baixo para cima
+ver onde estourou 
+
+caso haja exceção capturar com o catch
+ou sugerir tratamento
+
+experimentar utilizar os métodos 
+
+do while <-  continuar exibir mensagem até que usário coloque um valor válido
+
+--
+
