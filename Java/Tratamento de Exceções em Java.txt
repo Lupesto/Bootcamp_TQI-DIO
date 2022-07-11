@@ -23,3 +23,26 @@ do while <-  continuar exibir mensagem até que usário coloque um valor válido
 
 --
 
+checked exceptions
+
+lançando / uso do try catch
+forma de tratamento mais eficiente:
+não pegar um erro generalista (mãe) e sim aquele mais próximo do método em questão
+exemplo: FileNotFoundException caso arquivo não seja encontrado.
+
+não permite o lançamento da exceção da classe mãe antes da filha.
+
+--
+exception personalizada
+
+[desacoplamento??]
+
+
+
+
+
+
+--
+Consultar repositório da aula
+https://github.com/cami-la/exceptions-java
+

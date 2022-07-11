@@ -1,0 +1,11 @@
+Pq escrever testes unitários?
+
+teste de funções, métodos, classes
+
+[refatorar,
+nova feature]
+
+
+
+maven e gradle são gerenciadores de dependência
+processo de instalação de dependência muda para cada um.
