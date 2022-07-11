@@ -1,0 +1,12 @@
+melhora de busca de objetos, 
+verificar se um objeto é igual ao outro
+
+
+apresentando o hashcode,
+usando método .contains
+
+-
+pilha
+queue
+
+
