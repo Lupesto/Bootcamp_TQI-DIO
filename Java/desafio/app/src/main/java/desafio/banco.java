@@ -11,13 +11,14 @@ package desafio;
 public class banco {
     public static void main(String[] args) {
         contaPoupanca lucas = new contaPoupanca("Lucas");
-        lucas.depositar(30);
-        System.out.println(lucas.getSaldo());
-        
-        System.out.println(lucas.getNumero());
-        
         contaCorrente everton = new contaCorrente("Everton");
-        System.out.println(everton.getNumero());
+        
+        
+        
+        lucas.depositar(30);
+        lucas.transferir(30, everton);
+ 
         everton.imprimirExtrato();
+        lucas.imprimirExtrato();
     }
 }

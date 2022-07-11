@@ -30,7 +30,7 @@ public abstract class conta implements intefaceConta { //Necessidade de abstract
         System.out.println("Nome: " + this.nome);
         System.out.println(String.format("Agencia: %d", this.agencia));
         System.out.println(String.format("Numero: %d", this.numero));
-        System.out.println(String.format("Saldo: %2f", this.saldo));
+        System.out.println(String.format("Saldo: %.2f", this.saldo));
         
     }
     
@@ -49,8 +49,9 @@ public abstract class conta implements intefaceConta { //Necessidade de abstract
     }
     
     @Override
-    public void transferir(int valor,int agencia, int numero){
-        this.saldo -= valor;
+    public void transferir(int valor, conta contaDestino){
+        this.sacar(valor);
+        contaDestino.depositar(valor);
         
         System.out.println("Valor tranferido");
     }

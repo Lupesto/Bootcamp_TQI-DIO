@@ -14,4 +14,9 @@ public class contaPoupanca extends conta {
         super.nome = nome;
     }
     
+    public void imprimirExtrato(){
+        System.out.println("== Extrato Conta Poupanca ==");
+        imprimirInfos();
+    }
+    
 }

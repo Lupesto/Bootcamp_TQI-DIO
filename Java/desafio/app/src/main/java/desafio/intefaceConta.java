@@ -11,6 +11,6 @@ package desafio;
 public interface intefaceConta  {
     public void depositar(double valor);
     public void sacar(double valor);
-    public void transferir(int valor,int agencia, int numero);
+    public void transferir(int valor, conta contaDestino);
     public void imprimirInfos();
 }
