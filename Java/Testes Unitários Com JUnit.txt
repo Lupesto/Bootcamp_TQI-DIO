@@ -9,3 +9,80 @@ nova feature]
 
 maven e gradle são gerenciadores de dependência
 processo de instalação de dependência muda para cada um.
+
+nunca escrever código de teste na área de java
+
+criar um método que dirá aquilo que iremos testar
+
+todos métodos do jUnit não possui retorno.
+
+em assertions colocamos o resultado esperado
+
+explorar métodos em Assertions
+
+
+Há muita sobreescrita de métodos no jUnit
+
+importação estática, elimina a necessidade de escrever Assertions
+
+apresentação dos métodos.
+
+--
+[O que é Logger?]
+
+beforeAll,
+testar a conexão de banco de dados antes de tudo
+
+befor e after all são execuções únicas no ciclo do teste
+
+before e after each rodam antes e depois de cada teste da classe
+
+--
+
+assumptions = hipoteses
+
+executar determinada situação em determinda circunstância.
+
+
+--
+
+testando exceções
+
+testar quando cenário ocorre
+
+pode testar se o código irá lancer uma exceção ou não.
+
+-- 
+ordem de testes
+
+métodos para ordernar testes por
+valor em display
+nome dos métodos
+aleatóriamente
+
+
+--
+Recursos de testes pelas IDEs
+
+
+só mostrou breakpoint no vscode
+
+
+apresentação debug no eclipse
+
+--
+boas práticas
+facilitar o entendimento 
+métodos de testes com nomes condizentes
+
+quanto mais cedo testar um código, melhor é para o reparo
+
+escrever teste antes da funcionalidade <- pode ser adotado por algumas equipes
+
+deve haver padrão de nomeclatura dentro do time
+
+testes devem ter o mesmo resultado independente de quantas vezes for rodada
+
+é possível automatizar o testamento do código
+há plugins para testes automatizados
+
