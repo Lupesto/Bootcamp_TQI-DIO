@@ -1,0 +1,59 @@
+[modelagem computacional?]
+[CEFET]
+[LNCC]
+
+[network science e uso de grafos na área]
+
+
+protocolo de comunicação -
+diretrizes e regras de como a comunicação ira ocorrer
+
+[pesquisar por camadas TCP/IP
+[OSI
+
+[Pesquisar por conceitos
+
+
+--
+Como fucniona o protocolo HTTP?
+
+protocolo comunicação
+intermediação entre o cliente e servidor
+pode não utilizar o browser
+
+cliente mande os requesitos, o servidor responde 
+TCP -> procolo da camada de transporte, controle dos fluxos, pacotes enviados (entre servidor e cliente,
+
+[UDP?]
+em TCP um pacote perdido pode ser reenviado
+
+stateless -> servidor não guarda estado do cliente, independente de quantas vezes for solicitado algo ele responderá
+
+[Pesquisar por CORS e 
+
+Conexão persistente - Conexão só é encerrada com uma ação de encerramento
+Conexão não persistente - Assim que é pedido a conexão é encerrada
+
+método get -> chama recurso, 
+A partir do método o servidor identifica o que ele precisa realizar
+
+response, servidor envia os recursos solicitados, ex: página web
+
+exemplificando com site de amazon
+
+browser = client
+envia o get + cabeçalho 
+
+Servidor recebe a solicitação get e tenta satisfazer requisi~~oes
+
+GET e POST são os dois métodos principais
+
+POST - Submissão de conteúdo ao servidor, envio de conteúdo ao servidor, comum em formulários
+
+Após isso o servidor fará uma atualização do banco de dados com todas as informações
+
+estruturação de dados
+formato para receber e enviar os dados
+mais usados XML e JSON 
+
+[12:40]
