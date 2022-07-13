@@ -170,6 +170,58 @@ apresentação de outra maneira para buscar esses dados, com createQuery
 
 
 
+--
+
+Como funciona uma transação?
+
+Conceito acid
+Tudo ou nada
+Tudo deve ser executado dentro da operação, ou nada é feito
+
+exemplo: Banco
+Conta cliente do banco criada
+No momento da criação da conta dá algum erro e não é adicionada o número da conta do cliente.
+
+Dados salvos pela metade não são salvos
+
+é possível dividir em transações diferentes.
+Ex: Salva-se o cliente, mas não o carro
+
+
+---
+
+pacotes úteis para interação com banco de dados
+
+
+não necessita mudar nada no código (aplicação gerando banco de dados
+
+
+
+spring framework mais famosa
+
+roda servidor
+requisições http
+entra dentro do seu servidor, operações com banco de dados
+rodando para sempre, sem necessidade de executarmos nosso método main
+
+
+endereços, conceito de diretórios
+
+no Spring só precisamos preeencher algumas linhas para utilizar o banco de dados
+
+Site do spring para criar nosso projeto
+
+Utiliza mesma ideia de ORM que o JPA
+
+[Consultar repositório do projeto, pois converte JPA para Spring]
+
+
+stackoverflow - estouro de memoria
+
+[problema com relacionamento bidirecional] 
+
+migração de banco de dados é muito fácil com hibernate
+
 
 
 
