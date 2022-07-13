@@ -33,11 +33,14 @@ exemplo: FileNotFoundException caso arquivo não seja encontrado.
 não permite o lançamento da exceção da classe mãe antes da filha.
 
 --
-exception personalizada
+exception personalizada. customizada
 
 [desacoplamento??]
 
+criando classe de exceção abaixo de uma classe de erro mãe
 
+
+[Consultar código
 
 
 
