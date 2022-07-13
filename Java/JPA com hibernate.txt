@@ -1,0 +1,176 @@
+
+
+anote termos que escutar
+
+
+JDBC ->
+conexão do java com BD
+no incio não haviam classes e pacotes para se conectar com BD
+
+padronização da maneira que nos conectamos com os bancos
+Conjunto de classes e interfaces[[
+
+
+JDK -> classes desenvolvimento java
+classes com java.sql fazem parte do JDBC
+
+driver manager - cria conexão
+connection - faz a criação do prepare statment
+prepare statment - injeta consulta, conexão de maneira segura para não tomar um SQL injection
+
+
+statment - não é tão seguro
+ResultSet - Resultado após statment
+
+único que é uma classe é o driver manager, o restante é interface
+
+
+inteface só nos diz o que devemos colocar como parâmetro e qual será a resposta
+
+Contrato = interface
+
+
+interface precisam ser implementas, se não gera erro
+
+a parte de conexão com o BD 
+[SGBD???]
+
+
+
+
+. instalar dependência
+
+[o que é docker compose]
+
+ 
+
+requisitos:
+instalar SQL 
+sem instalar SQL = acesso ao docker compose
+
+--
+feche suas conexões, pois abrir muitas pode ocorrer do banco cair
+
+
+[encapsulamento em java]
+Sempre baixar o drive conforme o BD que irá utilizar.
+
+
+
+--
+O que são ORM, JPA e hibernate
+
+
+
+representando tabela com orientação a objetos
+Cliente como representação exata da tabela
+toda linguagem tem ORM
+
+JPA
+JPA é uma ORM
+mapeamento de uma tabela tranformando-a em obejto 
+Estava muito complexo o gerenciamento e comunicação com banco de dados, 
+Hibernate e JPA são bem parecidos, 
+JPA é para framework de conexão de banco de dados
+
+Hibernate é mais antigo que JPA
+JPA são interfaces 
+JPA e Hibernate ao se referirem o pessoal está falando sobre a mesma coisa
+
+
+código java
+conversa com bd com orientação a objetos
+tradução da JPA para JDBC
+JDBC conversa com Drive
+Driver conversa com Relational Database
+
+
+JPA Facilita nosso trabalho
+
+--
+
+maven é o mais popular no mercado
+criar persistencia XML
+
+
+
+funciona como arquivo HTML com tags
+URL de conexão
+
+Usuário, senha
+driver de conexão
+
+
+Dialeto->
+tradução de maneira que o JDBC entenda, 
+
+update pois ele cria o banco de dados caso não haja, e se houver ele apenas atualiza.
+
+permite consultas aparecerem no log
+identação da consulta
+
+
+-------
+estrutura básica do banco de dados
+
+@entity
+tabela em forma de objeto
+
+public class cliente representa uma tabela no banco de dados]
+
+@table <- qual nome da tabela que ela representa
+@ID <- para toda entidade
+
+Obrigatórios no hibernate
+
+
+identity ou auto = auto increment
+
+@Coluna -: nome da coluna e tipo de dado dela
+@OneToMany -> Classe podendo ter várias outras classes
+
+@manyToOne -> carro podendo só ter um cliente
+Podendo só ter uma classe
+
+
+---
+
+[banco de dados relacional]
+
+criando tabelas pelo próprio código
+	acessa o xml, colocando os dados no entityManager
+
+
+Lembre-se de fechar a conexão do entityManager e EntityFactory, pois lidam com as conexões do banco
+
+
+uso do método getTransaction() por conta de segurança [não detalhou motivo]
+.commit [não detalha]
+
+[pesquisar por cascadeAll]
+
+
+fetchTypes 
+Consulta de dados(dar um select, trazer dados em memória juntoo
+lazy <- Proxy dos dados da classes carro(no exemplo)
+EAGER <- trará tanto cliente como carro ao dar o select
+
+
+
+erro comum: LazyInitializerException
+Resposta não veio completa e o desenvolvedor tenta acessar os dados
+Simulou o erro.
+
+
+Formas de arrumar quando aparece esse erro:
+trocar o FetchType para EAGER
+Problema do EAGER que se a quantia de dados for muito grande a aplicação pode até cair
+
+apresentação de outra maneira para buscar esses dados, com createQuery
+
+
+
+
+
+
+
