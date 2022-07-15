@@ -57,3 +57,122 @@ formato para receber e enviar os dados
 mais usados XML e JSON 
 
 [12:40]
+Pra que serve XML ? 
+Serialização e meta dados
+
+JSON - 
+baseado na sintaxe do JS
+Lightweight
+Fácil leitura
+estrutura dicionário
+
+Comum: 
+Auto descritivos/ fácil leitura
+vasta utilização
+
+diferenças:
+XML usa tags
+JSON chaves e valores
+XML é mais complexo para ler
+
+Qual escolher?
+Depende da tecnologia que está utilizando
+aplicações leves utilizamos o JSON
+cada projeto exige um
+
+
+procotolo HTTP
+TCP
+
+HTTP <- enviamos request e esperamos até podermos executar uma outra
+
+
+TCP persistente
+
+Head of line blocking
+
+--
+
+HTTP request escrito em ASCI II
+estrutura do HTTP request
+campos do header do navegador
+
+existem outros métodos HTTP (apresentação deles)
+[RFC]
+
+métodos seguros: POST, GET, option
+
+
+Classificação Status code
+WebDAV
+
+
+--
+
+identificando cliente:
+
+Cookies-
+track, rastreio dos clientes
+informações do cliente
+[RFC 6265]
+
+estão no header file
+[tentar criar um cookie + modificar cabeçalho]
+
+
+
+manter login ativo
+são evasivos
+entra na lei de LGPD 
+São criptografados, mas é possível quebra-la
+
+
+CACHE
+transmissão mais eficiente
+intermediário, requisições 
+compara aquilo que você possui e o que está no servidor
+Proxy Server
+redução de tráfego
+
+--
+Atualizações do protocolo
+
+mudanças no 2.0
+várias requisições são permitidas
+priorização dos recursos loading de objetos distintos, é possível configurar os itens que carregam primeiro
+[testar]
+
+
+reutilização de header
+push empurado pelo servidor
+HTTPS
+negociação handshake - confirmar se o cliente suporta a versão HTTP 2.0
+
+--
+
+Servidores mais utilizados no mercado
+
+Apache
+XAMP
+NGINX
+
+Apache 1995
+Contribuiu com surgimento do www
+opensourse
+apache software foundation
+
+Modular -> utilizar recursos que realmente precisa
+altamente escalável
+...
+
+
+Xamp é um pacote utiliza o apache
+voltado apenas para testes e desenvolvimento e não para internet
+
+NGINX -
+
+
+Wireshark <- breve passagem pelo software
+
+---
+criptografia por chave e 
