@@ -1,0 +1,34 @@
+
+existe módulos especificos para cada finalizade
+
+Uma resposta ao JAVA EE
+em alguns projetos ainda temos a utilização do java EE.
+Spring corta caminho para os resultados
+
+
+conjunto de dependências 
+informar tipo de banco de dados que precisaremos
+
+
+
+
+preenchimento para gerar projeto no site 
+
+abrir projeto pela sua IDE
+
+jamais criar instâncias com new /componentes
+
+
+evitando uso de new
+
+
+
+Quando temos o componente:
+quando temos acesso ao código
+
+Bean - 
+quando nao tenho acesso a inicialização de um arquivo.
+
+se for necessário a criação de diversos beans por conta de recursos externos crie uma classe exclusiva para beans
+
+https://github.com/digitalinnovationone/dio-springboot
