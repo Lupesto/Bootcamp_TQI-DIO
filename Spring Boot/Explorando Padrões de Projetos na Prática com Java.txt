@@ -1,0 +1,48 @@
+primeiro fará sem o framework em Java puro depois aplicará o spring
+
+
+
+
+abstração com spring
+
+
+Design patterns -> principal referência para padrões de projeto
+
+
+
+Singleton
+instância única, reutilizada diversas vezes
+não necessidade de criar novas instâncias que precisam ser reutilizadas
+não precisa realocar novos endereços de memória
+
+
+uso do eclipse como IDE
+
+
+
+
+criando construtor do singletonLazy como private, para que ninguém o instancie
+instanciando ele mesmo
+instanciar = colocar um new classe ();
+
+no lazy -> verifica se a instância é null antes de criar instância
+eager -> criar instancia logo no começo, assim que instância é acionada
+LazyHolder -> classe holder, cuja a função é encapsular o geraador de instância
+recomendação[ler sobre]
+
+
+teste das classes criadas.
+mesmo endereço de memória
+
+
+
+
+
+--
+Conhecendo projeto ase
+
+
+
+
+
+
