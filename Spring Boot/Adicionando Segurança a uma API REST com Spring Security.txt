@@ -1,0 +1,40 @@
+segurança das aplicações web, API REST
+
+jason webb token
+
+para habilitar a segurança adicionar a dependência de segurança
+
+exige login e senha para acesso aos recursos da aplicação
+
+a  cada execução gera uma senha.
+Alternativa para criar senha padrão
+
+em memória <- mais de um usuário 
+
+é possível o controle de acesso dos usuários criados
+
+
+configure adapter
+
+divisão em rotas, 
+
+em login limitando as requisições para o tipo POST
+
+---
+AUTENTICAÇÃO COM BANCO DE DADOS
+
+adicionando dependência Spring JPA
+
+Seguindo a documentação -> auth database
+
+---
+JWT part 1
+
+tecnologia independente de diversas tecnologias e linguagens
+
+limitar tentativas de login
+token expirado...
+
+
+JWT part 3..
+
