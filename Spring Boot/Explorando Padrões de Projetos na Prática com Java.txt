@@ -34,12 +34,95 @@ recomendação[ler sobre]
 teste das classes criadas.
 mesmo endereço de memória
 
+---
+stategy
 
+implementações da interface
+uso do polimorfismo
+as implementações implementando a interface
+comportamento variando
+
+
+[anotações UML]
+[padrõesde projeto]
+
+--
+FACADE
+Criando interface mais simples para consumo da API.
+simplificando integrações de subsistemas
+abstração da integração de um sistema
+
+Na comunidade existe opniões controversos quanto a ele.
+
+pode quebrar alguns principios do SOLID, dependendo da forma que implementamos
+
+
+interface mais simples de uma operação mais complexa
+
+deixando construtor privador, uso do super, tirar a necessidade de instanciamento da classe. Classe do CRM só com método estático.
+
+
+
+---
+[JPA com h2????, banco de dados em memória ]
+
+
+spring boot abstrair maioria dos padrões de projeto java
+
+interfaces/dependências utilizadas:
+Spring web
+	Para prover uma interface REST para cnsumo
+Data JPA
+	
+[confusa explicaçãosobre dependências]
+
+
+site gera um .zip, importamos para trabalhar por ele.
+
+usando o h2 não precisamos do prperties
+
+cada entidade com um repository
+repository <- interface, prove todos os métodos determinados a dados da entidade
+
+
+camada de service:
+regras
+FACADE
+interface com todas operações 
+
+[operações de CRUD]
+
+feign client <- endereço para consumir API
+
+---
+PRATICANDO COM SPRING
+
+
+interface de consumo da api com dependencia OPENAPI Swagger
+
+
+mesmo hash[pesquisar sobre autowired]
+[fazer projetos mais simples usando spring]
+
+
+optional<> 
+.orElseGet 
 
 
 
 --
-Conhecendo projeto ase
+[projeto]
+
+proposta de projeto aberta
+aplicar spring boot em um projeto
+
+
+
+repositórios:
+https://github.com/digitalinnovationone/lab-padroes-projeto-java
+
+https://github.com/digitalinnovationone/lab-padroes-projeto-spring
+
 
 
 
