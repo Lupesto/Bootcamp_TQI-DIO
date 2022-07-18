@@ -29,6 +29,24 @@ mais fácil descobrir comportamentos indevidos
 ---
 abstraindo melhor os componentes
 
+função para ver se outra função foi chamada ou não jest.fn()
+
+
+
+variáveis de ambiente ->
+url no ambiente de desenvolvimento 
+e outra url no site
+evita precisar repetir endereço em diversos arquivos
+
+[significado de moacker uma API REST]
+
+--
+
+Colocando audio
+não testou a presença do audio
+
+--
+
 
 
 
