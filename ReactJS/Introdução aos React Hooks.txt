@@ -1,1 +1,34 @@
-emacs
+emacs <- editor de texto no terminal
+
+
+
+apresentação dos arquivos/diretórios do projeto e bibliotecas instaladas
+
+<GlobalStyle <- vem do styled-components (uma biblioteca)
+serve para aplicar um css global, usado pela aplicação inteira 
+
+
+
+[importando e exportando funções com JS]
+
+
+
+primeiro escrevendo teste unitário antes do código
+
+Biblioteca testing-library
+
+objetivo: escrever o teste antes de programar, vai quebrar
+
+
+[pesquisar por unidades relativas e constantes no css (em, pixel, vw, vh]
+
+[tipar propriedades, boa prática]
+esperar sempre receber determinada propriedade no componente
+mais fácil descobrir comportamentos indevidos
+
+---
+abstraindo melhor os componentes
+
+
+
+
