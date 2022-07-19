@@ -47,6 +47,20 @@ não testou a presença do audio
 
 --
 
+Conclusão do projeto
+
+
+hook para manter status mesmo com atualização
+useRef
+
+tocar audio só se componente estiver montado
+
+
+repositórios:
+https://github.com/celso-henrique/naruto-quotes-client
+https://github.com/celso-henrique/naruto-quotes-server
+
+
 
 
 
