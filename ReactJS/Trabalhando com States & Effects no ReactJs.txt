@@ -1,0 +1,72 @@
+criando componentes e comportamento
+
+curso focado em funcional
+
+componente: função js que retorna html e css 
+
+O que são hooks?
+gancho em inglês
+função que gancha o componente
+ao executar uma ação no componente a funçaõ é executada
+
+foi adicionado no react 16.8
+
+
+consultar documentação oficial
+
+hook de state -> componente que usa estado
+
+comando
+create react app -> 
+cria o ambiente de projeto necessário para trabalhar com react
+
+
+hooks não são obrigatórios, mas facilitam nosso trabalho
+
+
+Estrutura projeto react: 
+app test <- arquivo de teste
+index.js e css arquivos principais
+logo 
+package.json <- script de start
+setupTest <- iniciar o uso o Jest
+reportWebVitals <- monitorar desempenho
+
+
+npm start 
+atualiza sem recarregar a página
+
+deixando projeto mais limpo:
+
+
+criar uma pasta para os componentes é uma boa prática
+
+--
+Primeiro componente sem utilizar hooks
+
+
+componente, função js que retorna um HTML
+
+componente com memória.
+--
+
+Criando um componente prático com estado
+
+iniciar componentes com maisculas <- boa prática
+
+pegou css pronto
+
+uso de setNomeFunção <- convenção, boa prática
+
+--
+
+useEffect<- ação como efeito colateral
+
+efeito encadeado
+toda vez que value for alterado, executar efeito colateral
+
+[uso de crase no js, para que serve?]
+
+
+
+repositório:
