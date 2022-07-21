@@ -1,0 +1,45 @@
+não existe regra clara para quebra de componentes
+mas existe consenso em que: quanto menor a responsabilidade de um componente melhor
+
+Criar componentes com responsabilidades únicas
+Cada campo como um camponente no formulário
+
+manter código organizado para facilitar manutenção. 
+
+
+vantagens de componetizar (consultar slide)
+
+
+nomes coerentes nas variáveis, código bem estruturado ...
+
+aplicação para consumir github API, distribuir informações para os componentes
+
+
+Ponto chave da componetização: Reutilizar
+
+
+pesquisar por yarn
+
+react já cria as pastas de projeto para que possamos focar no código.
+
+
+dependências do projeto ->
+axios, styled-components, react tabs
+
+[importância em dar um reset no CSS]
+
+
+
+olhar para o problema e dividir as responsabilidades em componentes
+
+
+permite quebrar o código em diversos arquivos
+
+
+axios -> facilita requisições http
+
+exemplo componente:
+retorna lista de repositórios que um usuário possui
+
+quebrar componente assim que um componente está difícil de ler
+

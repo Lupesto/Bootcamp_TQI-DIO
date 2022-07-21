@@ -1,0 +1,14 @@
+apresentação das maneiras para estilizar um componente
+
+styled-components <-mais utilizado no meio 
+
+[o que são props?]
+
+	stateful - componente usa estados
+	stateless -> componente não utiliza estados
+
+
+apresentação do ciclo de vida dos componentes
+
+aula 3
+
