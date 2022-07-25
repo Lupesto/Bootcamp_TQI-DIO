@@ -9,18 +9,26 @@
 
 #### about - Bootcamp
 
-Coding **bootcamps** are intensive studies programs of software development.
-
-May 24 - July 24, 2022 <br>
-20 thousand of scholarship <br>
-
-125 hours :clock1:<br>
-
-Around 41 courses, competitive programing and 7 projects.<br>
+Coding **bootcamps** are intensive studies programs of software development.<br>
 
 <br>
 
-https://web.dio.me/track/tqi-fullstack-developer/
+**TQI Program details:** <br>
+
+    <p align="center">
+        
+        May 24 - July 24, 2022 <br>
+    Course duration: 125 hours <br>
+20 thousand of scholarship <br>
+        Around 41 courses, competitive programing and 7 projects.<br> </p>
+
+
+
+website: https://web.dio.me/track/tqi-fullstack-developer/
+
+​    
+
+
 
 
 
