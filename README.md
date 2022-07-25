@@ -42,89 +42,102 @@ https://www.dio.me/
 
 #### Introduction
 
-Programming logic
+​	Programming logic
 
-Git and GitHub introduction
+​	Git and GitHub introduction
 
 #### HTML/CSS
 
-HTML 5 
+​	HTML 5 
 
-CSS3
+​	CSS3
 
-Project: create a hamburger menu and morphing menu with CSS Transitions
+​	Project: create a hamburger menu and morphing menu with CSS Transitions
 
 #### JavaScript
 
-Install and config Visual Studio Code
+​	Install and config Visual Studio Code
 
-JS syntax
+​	JS syntax
 
-Basic math operators
+​	Basic math operators
 
-Data types and structure
+​	Data types and structure
 
-Functions
+​	Functions
 
-Consuming APIs with JavaScript
+​	Consuming APIs with JavaScript
 
-Object-Oriented
+​	Object-Oriented
 
-D.O.M manipulation
+​	D.O.M manipulation
 
-Project: create a memory game with JS, CSS, and HTML
+​	Project: create a memory game with JS, CSS, and HTML
 
 #### ReactJS
 
-ReactJS introduction 
+​	ReactJS introduction 
 
-States and Effects
+​	States and Effects
 
-Hooks
+​	Hooks
 
-Development an internet application with react and practice TDD
+​	Development an internet application with react and practice TDD
 
-Project: create a front-end solution using react components
+​	Project: create a front-end solution using react components
 
 #### MySQL
 
-Introduction 
+​	Introduction 
 
-Consulting and manipulation data base 
+​	Consulting and manipulation data base 
 
 #### JAVA
 
-Introduction IntelliJ, eclipse, and NetBeans 
+​	Introduction IntelliJ, eclipse, and NetBeans 
 
-Data types and math operators
+​	Data types and math operators
 
-Basic methods
+​	Basic methods
 
-Conditional logic and flow control
+​	Conditional logic and flow control
 
-Loops structures and arrays
+​	Loops structures and arrays
 
-Collections
+​	Collections
 
-Data structure
+​	Data structure
 
-Debugging
+​	Debugging
 
-Object-Oriented
+​	Object-Oriented
 
-JDB and JPA
+​	JDB and JPA
 
-Hibernate
+​	Hibernate
 
-Unit test with jUnit
+​	Unit test with jUnit
 
-project: Create a digital bank using object-oriented knowledge
+​	Project: Create a digital bank using object-oriented knowledge
 
 #### Spring Framework
 
+​	Main communication protocols
 
+​	Spring boot
+
+​	Design patterns
+
+​	API REST with Spring Security
+
+​	Project: Developing unit test to validate an API REST
 
 #### Quality Assurance 
 
+​	Fundamentals of software quality 
 
+​	Agile methods
 
+​	Software development cycle
+
+​	Introduction of software test 
