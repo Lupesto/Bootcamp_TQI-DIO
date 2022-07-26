@@ -15,10 +15,12 @@ Coding **bootcamps** are intensive studies programs of software development.<br>
 
 **TQI Program details:** <br>
 
-    <p align="center">
-        
-        May 24 - July 24, 2022 <br>
-    Course duration: 125 hours <br>
+```html
+<p align="center"
+    
+    May 24 - July 24, 2022 <br>
+Course duration: 125 hours <br>
+```
 20 thousand of scholarship <br>
         Around 41 courses, competitive programing and 7 projects.<br> </p>
 

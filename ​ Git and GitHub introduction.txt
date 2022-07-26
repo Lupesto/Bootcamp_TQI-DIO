@@ -1,122 +1,90 @@
+Para que serve o git?
+
 controle de versões
 
-git
-versões de um arquivo
-linus torvalds
-mesmo criador do linux
-software é algo colaborativo
-
-é apenas  mais um  sistema de versionamento
-atrás
 
 
-github são de empresas diferentes, não são a mnesma coisa
-complementares 
+Git
 
+Criador: Linus Torvalds (mesmo criador do linux)
 
-github 
-repositório online
-git é gratuito
-há outros serviços parecidos que o github
-
-
-git não tem interface grafica
-atraves de comandos por terminal
-
-
-[gui x cli]
-comandos no windows
-cd <-  mudar de pasta
-dir <- lista arquivos
-mkdir <- criar diretório
-del ou rmdir
-del só deleta os arquivos
-para deletar  repositório no windows -> rmdir /S /Q
-
-
-depende do s.o da sua maquina 
-
-limpar terminal < cls
+Tornar o software algo colaborativo, há outros sistemas de versionamento
 
 
 
----
-instalar pelo site do git 
+GitHub
 
-bash e gui here <-  devem estar marcados no instalador
-editor de texto padrão
+GitHub é da Microsoft, complementa o Git.  Há serviços similares ao GitHub.
 
-deixar git decidir o master
-tudo next, 
-credential helper ->  
-deixar no manager core
 
-next e concluir
 
-digitar git no pesquisar do windows
+Comandos no Windows:
+cd - mudar de pasta
+dir - lista arquivos
+mkdir - criar diretório
+rmdir - remover diretório
+del - deleta dó arquivos
+cls - limpar terminal
 
-----
-#sha1
-secure hash algorithm
-criada pela agencia de segurança dos eua
-encriptação de saida com 40 digitos chave
-ele vai gerando chaves conforme as modificações
 
-https://prnt.sc/nEJ40mxNjGeH
 
-git bash here, com botão direito
-garante modicações de uma versão para outra
+[pesquisar por instalação do Git]
 
 
 
 
 
-#objetos
-	-Blobs
-		tipo, tamanho, conteúdo, char <-oq tem dentro de um objeto
-	guarda com metadados nesses objetos, tamanho do arquivo, string...
-
-	
+#sha1 (secure hash algorithm)
+criada pela agencia de segurança dos EUA
+encriptação de saída com 40 dígitos chave
+Geração de chaves conforme modificações
 
 
-	-trees
-	armazenam as blobs. 
-	guarda nome do arquivo
-	estrutura e localização dos arquivos
-	https://prnt.sc/SlquPjetSen2
-	podem apontar para outras arvores e arquivos		
 
-	commits
-	que junta tudo
-	aponta para arvore, parente, autor, mensagem, data/hora, ...
-	mudar qualquer coisa em um arquivo altera tudo
-	https://prnt.sc/RcP8QP_r811p
+Para abrir Git em determinado diretório:
 
-#sistema distribuido e segurança
+Botão direito> git bash here
+
+
+
+
+
+- Objetos commit [Procurar por explicação melhor]
+  Blobs, trees, commits 
+
+​	
+
+
+
+
+
+#sistema distribuído e segurança
 	estrutura,
-	distribuido
+	distribuído
 	garante que os arquivos dos outros usuários são os mesmos
 
 
------- PAREI AULA CHAVE SSH
+
+
 
 autentificação para mandar seu código
 não é por senha e user, não precisamos de senha mais
 
-
-ssh <- configuração de chaves
+SSH: configuração de chaves
 tornar uma máquina confiável
 
 setting no github, ir em SSH <-
 criar nova chave ssh
 
-terminal bash? 
 
 
-abrir o git bash no windows
 comandos para criar chaves:
 
 ssh-keygen -t ed25519 -C lucasthe2@gmail.com
+
+
+
+
 
 vai jogar em um local as chaves
 pede para entrar com uma senha
@@ -404,28 +372,11 @@ branch
 push
 
 
---------------------------
 
-projeto github
-
-hard e soft skills
-
-falvojr github
-compartilhe suas anotações
-
-estudar sobre gitignore e licenças
-ler documentação markdown
-
-vc pode receber um repositório vazio
-dar um git clone e aparecerá em sua página 
-
-Pode ir colocando seus estudos todos os dias 
+[estudar sobre gitignore e licenças]
 
 git pode ser usado para qualquer coisa, exemplo na academia
 a ideia do github é a colaboração de outras pessoas
-
-Criar repositório para Bootcamp, Capgemini e PowerPlatform
-
 
 
 
