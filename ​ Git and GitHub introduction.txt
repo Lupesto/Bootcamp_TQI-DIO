@@ -1,19 +1,13 @@
 Para que serve o git?
-
 controle de versões
 
 
-
 Git
-
 Criador: Linus Torvalds (mesmo criador do linux)
-
 Tornar o software algo colaborativo, há outros sistemas de versionamento
 
 
-
 GitHub
-
 GitHub é da Microsoft, complementa o Git.  Há serviços similares ao GitHub.
 
 
@@ -27,10 +21,7 @@ del - deleta dó arquivos
 cls - limpar terminal
 
 
-
 [pesquisar por instalação do Git]
-
-
 
 
 
@@ -42,10 +33,7 @@ Geração de chaves conforme modificações
 
 
 Para abrir Git em determinado diretório:
-
 Botão direito> git bash here
-
-
 
 
 
@@ -55,81 +43,38 @@ Botão direito> git bash here
 ​	
 
 
-
-
-
-#sistema distribuído e segurança
-	estrutura,
-	distribuído
-	garante que os arquivos dos outros usuários são os mesmos
-
-
-
-
-
-autentificação para mandar seu código
-não é por senha e user, não precisamos de senha mais
-
-SSH: configuração de chaves
-tornar uma máquina confiável
-
-setting no github, ir em SSH <-
-criar nova chave ssh
-
-
+SSH: configuração de chaves, não fica pedindo senha para o usuário. Torna uma máquina confiável
+GitHub setting > SSH > Create new SSH 
+O site pede a chave pública SSH criada 
 
 comandos para criar chaves:
-
-ssh-keygen -t ed25519 -C lucasthe2@gmail.com
-
+ssh-keygen -t ed25519 -C seuEmail
 
 
-
-
-vai jogar em um local as chaves
-pede para entrar com uma senha
-
-geera uma chave pública e uma privada
+gera uma chave pública e uma privada
 dar um cd para /user/nomeUsuário/ .ssh
 dar um ls
 dar um cat id... .pub para visualizar a chave que vai no github
 
-no github nos colocamos a chave pública
-
-pwd <- q comando é este?
 
 
-[outro comando
 
+Comandos
 eval $(ssh-agent -s)
-vai aparecer Agent alguma coisa
-
-comando
-ssh-add colocar a chave privada
-
-para clonar um repositório utilize o ssh
-
-clonar repositório
-dar um git clone e caminho ssh
-git : ssh do repositório
+ssh-add - colocar a chave privada
+[clone repositório usando SSH / url do repositório]
 
 
+Token de acesso pessoal: pedirá nickname e senha, todo commit exige.
+Mantenha o token em um local seguro pois ele some
 
-TOKEN DE ACESSO PESsoal
-tem que digitar seu nickname e senha
-todo commit exigirá isso
+GitHub, criando token
+Settings > Developer Settings > personal acess token > generate new token
 
-no github settings
-developer setting> personal acess tokens > 
-gerar novo token  
-deixar só repo marcada
 
-mantenha certeza de marcar o token em algum local seguro, pois ele some
 
-dá para clonar com token
 
-git clone https do repositório
-vai aparecer uma tela no site exigindo o token
+
 
 
 --------------------
