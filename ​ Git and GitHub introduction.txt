@@ -1,3 +1,17 @@
+Todo 
+[ ] separar por tópicos
+[ ] preparar arquivo em markdown
+[ ] prática + tirar prints
+[ ] reparo erros
+
+-> Tópicos
+O que é?
+Ciclo de vida
+Primeiro commit
+Possíveis erros
+Outros comandos
+
+
 Para que serve o git?
 controle de versões
 
@@ -78,137 +92,91 @@ Settings > Developer Settings > personal acess token > generate new token
 
 
 --------------------
+Como iniciar trabalhos com git?
+Crie uma pasta que servirá de raiz para os repositórios (workspace)
 
-criar uma pasta para trabalhar
-dar um git bash here (botão direito windows)
-criaremos outra pasta dentro com mkdir 
-as pastas serão nossos repositórios
+botão direito > git bash here
+git init (gerá pasta oculta git)
+ls -a (para ver arquivos ocultos)
 
-dar um git init 
-gerará uma pasta oculta git
-
-ls -a vê arquivos ocultos
-
-cd.. voltar 1 nivel
-
-primeira vez pede user name e email
-git config --global user.email "SEU EMAIL"
-git config --global user.name COLOCAR NOME
-
-markdown <- tipo um html mais humano, mais fácil
-
-https://prnt.sc/vrYCekn04f90
-
-quantidade de # substitui os h1,h2,h3,h4...
-arquivo com extensão .md no final
-
-programa typora <- ele edita 
-pesquisar por comandos do markdown
+caso seja a primeira vez com o Git: 
+git config -- global user.email "seu email"
+git config --global user.name "nomeUser"
 
 
+
+
+A linguagem para fazer a documentação no GitHub é o markdown (um HTML mais humanizado)
+[link documentação markdown]
+.md é a extensão desse tipo de arquivo
+
+Uso do programa typora para editar markdown
+
+
+
+
+
+Como gerar commit:
 git add *
 git commit -m "commit inicial"
-
-https://prnt.sc/Pan3yTl802zk
-
-git init <- cria um repositório
-
-explicação de como funciona o git por baixo de panos
-https://prnt.sc/wZ6Hm12NHxyz
-
-Oq acontece ao criar um arquivo
-https://prnt.sc/xMPUZ0XTUoLQ
-
-REVER AULA DE CICLO DE VIDAS
-
-----------------------------------
-
-
-criar repositório com mkdir
-dar um git init
-ls -a ver as pastas ocultas
-
-cd .. <- voltar 1 nivel
-primeira vez no git pede git config --global user.name SEUNOME
-criar arquivo .md pelo terminal: echo "" >> readme.md
-dar um git add *
-criar um commit com git commit -m "inicial"
 git branch -M main
+git push -u
+
+Ciclo de vida no git
+[como funciona git por de baixo dos panos: https://prnt.sc/wZ6Hm12NHxyz]
+
+
+
+Comando para criar arquivo pelo terminal 
+echo "" >> readme.md
+
+
+
 git remote add origin git@github.com:Lupesto/tiny_Software.git
 
 
 commits carregam mensagem de textos
-ter acesso a qual commit foi adicionado
-aparece os  primeiros caracteres do sha1
+no commit aparece os  primeiros caracteres do sha1
 
 
 -----------
 ciclo de vida no git
 
-git init <- inicializa um repositório
-dentro de uma pasta
-
+git init <- inicializa um repositório dentro de uma pasta
 tracked <- dividem-se em não modificados, modificados e staged (aqueles esperando para algo)
 untracked <- arquivos que o git se quer tem ciencia deles
+git add <- manda um arquivo que o git não conhecia para staged 
+unmodified <- aqueles no repositório que não teve modificação
 
-git add manda um arquivo que o git não conhecia para staged 
-unmodified aqueles no repositório que não teve modificação
-dar um git add novamente o arquivo ficará nessa área
 
 dar um git add para um arquivo modificado mandará ele para staged
 remover um arquivo unmodfied o joga para untracked
 
-depois de staged vai para commit, colocamos mensagem em um commit com autor e data
+depois de staged o arquivo vai para commit, colocamos mensagem em um commit com autor e data
 depois de commit um arquivo vai para não modificado (unmodified)
 
 
 local repository <- na sua máquina
-staging area estão na máquina 
-
-https://prnt.sc/FOMXHWx2VAm5
-
-ao fazer o commit vc manda o pessoal do staging area para unmodified 
-repositório local só com commits, para poder enviar para um repositório remoto
-
 git status <- ver em que posição está um arquivo
+
 working tree clean significa repositório de trabalho sem alteração
 nothing to commit <-nada para comitar
+
+
 
 mv para mover um arquivo 
 mv NOMEARQUIVO.md ./outro repositório
 
 
---
-echo "# tttt" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:Lupesto/tttt.git
-git push -u origin main
 
 
-
-[substituir remote origin]
-[remover repositório]
-
-
-
-
-
-
-pra não ficar essa putaria de versão antiga,final, versão final de verdade
-
----
-git init inicializa um repositório  dentro da nossa pasta
 https://pt.stackoverflow.com/questions/326160/diferen%C3%A7a-entre-git-add-all-git-add-e-git-add-u
 
 
-git config --list
-lista de configurações no git
+git config --list <-lista de configurações no git
 setar mesmo email e email/ name no github
 
-para resetar 
+para resetar config
 git config --global --unset user.email
 git config --global --unset user.nickname ou name
 
@@ -218,110 +186,52 @@ git config --global user.email
 
 substituir author de um commit mudará o sha1,
 aparecerá no github de maneira diferente o author
-mostra quais repositórios vc contribui conforme os anos
 
-só apontar 
-empurar do repositório local para remoto
+
+
 para adicionar o local aonde enviaremos os arquivos vamos de > git remote add origin +URL
-
 git remote -v <- listar repositórios remotos
-
 git status mostrará que não tem nenhuma pendencia no repositório
 
 
-git push origin master 
-
-github é mais visual para vermos aquilo que está sendo alterado
-dá para ver histórico dos commits
-conteúdo no commit
-https://prnt.sc/Vgfgt59nytzd
 
 
-
----
-para colocar um arquivo novo no github
-git add --all
-dar um commit
-dar um branch
-dar um push
-pronto, arquivo upado
-	
-
---
 se o repositório já tiver um origin
 será necessário dar um 
 git remote rm origin
 e colocar seu novo repositório remoto destino
 
-
-dá para forçar um push com
-git push origin main -f
-caso apareça o erro de 
+ERRO
+Em caso de erro: 
 https://prnt.sc/tR2-5XWnPaQJ
 https://prnt.sc/063vGUKfffBS
 
+é possível forçar o push 
+Comando: git push origin main -f
 
 
 
+Erros
+código na máquina é desatualizado quando comparador com o arquivo remoto 
+	github pede para vc puxar o código mais atual
 
----
-
-Resvolver conflitos
-
-suposição com edições e modificações no código
-github pede para vc puxar o código mais atual
-
-conflito de match
-duas alterações na mesma linha
-vc precisará abrir o arquivo
-
-git add * <- adiciona tudo
-[testar modificar um arquivo para ver resultado em git status]
-
-criou um commit e tenta empurar com push
-aparece aquela mensagem que já vi, rejeitado
-fala sobre o problema causado por outro repositório
-pede para integra-los primeiro
-pede no erro para dar um git pull
-
-git pull origin master <- junta ambos os arquivos
-ver na parte de baixo em conflict, o merge.
-
-aparecerá <<<HEAD
-e ======
-
-significa <head sua versão atual
-==== <informação que se tem lá no github
-
-fazer as modificações que ele pede
-depois dar um git add *
-git commit -m ""
-dar um git push
-
-codespace?
-github desktop?
-
-COPIAR REPOSITÓRIO
-dar um git clone .... e linha
-vai copiar o repositório na sua máquina
+duas alterações na mesma linha(conflito de match)
+	Pede para abrir o arquivo e fazer as modificações por si mesmo
+	git pull origin master <- para juntar ambos arquivos
 
 
-trocar repositório remoto
-git remote set-url origin https://git-repo/new-repository.git
-
-
-para add conteúdo dar um 
-git add *all
-dar um commit
-branch
-push
-
-
-
+Como clonar um repositório:
+Como trocar repositório remoto <- git remote set-url origin https://git-repo/new-repository.git
 [estudar sobre gitignore e licenças]
 
-git pode ser usado para qualquer coisa, exemplo na academia
-a ideia do github é a colaboração de outras pessoas
+
+
+
+
+
+
+Para que serve o Git?
+Pode ser usado para diversos fins, na academia por exemplo podemos trabalhar com a colaboração de outras pessoas
 
 
 
