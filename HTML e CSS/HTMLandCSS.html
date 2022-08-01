@@ -16,26 +16,26 @@
 <body>
     <h1>HTML & CSS</h1><br>
     <h3> Sobre o HTML: </h3> 
-    <p> O Html foi criado em 91 por tim berners a mais recente versão foi lançada em 2014. </p> <br> 
+    <p> O Html foi criado em 91 por Tim Berners, a mais recente versão foi lançada em 2014. </p> <br> 
 
     
-    <h3>Estrutura básica HTML: </h3><br>
-    <textarea> 
-      <html>, <head>, <body>, <meta>  
-    </textarea>
+    <h3>Estrutura básica HTML: </h3>
+    <pre><code>
+      &lt;htmlp&gt, &lt;headp&gt, &lt;bodyp&gt, &lt;metap&gt 
+      </pre></code>
     <br>
     <br>
     
-    <h3>Mudanças com a nova atualização:</h3><br> 
-    <p>antes faziamos tudo com div, significando tudo com class, agora há novos elementos </p><br>
-    <h3></h3>Novos elementos:</h3><br>
-    <textarea> 
-      <section>
-      <aside>
-      <header>
-      <article>
-      <footer>
-    </textarea>
+    <h3>Mudanças com a nova atualização:</h3>
+    <p>Antes faziamos tudo com div, significando tudo com class, agora há novos elementos </p><br>
+    <p>Novos elementos:</p>
+    <pre><code>
+      &lt;sectionp&gt
+      &lt;asidep&gt
+      &lt;headerp&gt
+      &lt;articlep&gt
+      &lt;footerp&gt
+    </pre></code>
 
     <br>
     <h3> Descrição dos elementos: </h3> 
@@ -57,14 +57,15 @@
     <h3>textos e links:</h3>
     telefone e email:
     <pre><code>&lt;a href tel/mailto </pre></code>  <br>
-    <textarea><a target </textarea> <- como link será aberto. ex _blank (abrir em nova aba <br>
+    <- como link será aberto. ex _blank (abrir em nova aba <br>
+    <pre><code>&lt;a target </pre></code> 
     
-    <h3>Imagem</h3><br>
-    img  <- tem atributo src e alt (sorce caminho da imagem. Alt descrição da imagem)<br>
+    <h3>Imagem</h3>
+    img  <- tem atributo src e alt (sorce caminho da imagem. Alt descrição da imagem)<br><br>
     
 
 
-    <h3>Listas</h3><br>
+    <h3>Listas</h3>
     <ul>
       <li>ul <- não ordenada</li>
       <li>li <- um item nessa lsita</li>
@@ -74,107 +75,88 @@
       <li>li <- um item nessa lsita</li>
     </ol>
 
-    
+    <hr>
     <h2>Sobre o CSS3: </h2>
-    foi criada em 1996
-    sintaxe simples
-    regras de estilos
-    seletores e delcarações. exemplo a {color: #85454
-                        }
-    ID X classes
-    pode ser que tenhamos várias tags
+    <p>Criada em 1996, sintaxe simples. São regras de estilos, exemplo a {color: #85454}</p>
+
+
     
-    la nos seletores do css
-    classes no css presede com .
-    id com #
+    <h2>Id versus Classes</h2>
+    . <- classes <br>
+    # <- id <br>
     
-    um id só pode ser usado uma vez na página
+
+    <h3>Detalhes</h3>
+    <ul>
+      <li>um id só pode ser usado uma vez na página</li>
+      <li>Os 0 de margin e padding não demandam por marcar unidade</li>
+      <li>Uso de código hexadecimal, </li>
+    </ul>
     
-    ---
-    box model no css
-    exercicio para que entendamos
+
+
+    <h3>Principais códigos</h3>
+    <!-- FILTRO NO EXCEL -->
+    <ul>
+      <li><a href="#">margin</a></li>
+      <ul>
+        <li>Zero</li>
+        <li>Auto</li>
+      </ul>
+      <li>border</li>
+      <li>Font</li>
+      <li>list style-type</li>
+      <li>:checked + </li>
+      <li>.trace:nth-child(1)</li>
+      <li>:hover</li>
+      <li>::before</li>
+      <li>toggle </li>
+      <li>-wrapper</li>
+      <li>position</li>
+      <li>transition</li>
+      <li>cursor</li>
+      <li>filter</li>
+      <li>display</li>
+      <li>background:
+        <ul>
+          <li>position</li>
+          <li>repeat</li>
+          <li>size</li>
+        </ul>
+      </li>
+      <li>align-itens</li>
+      <li>letter-spacing</li>
+      <li>visibility</li>
+      <li>> <- apontando para outra classe</li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li>transform:</li>
+      <li>top</li>
+      <li>:nth-child(1)</li>
+      <li>ease-in-out</li>
+      <li>input</li>
+      <li>label</li>
+      <li>justify-content:</li>
+      <li>box-sizing</li>
+      <li>unidades (vh, px, vw, rm)</li>
+      <li>@keyframes </li>
+      <li>animation:</li>
+      <li>cubic-bezier()</li>
+      <li>min-width / max-width</li>
+      <li>transfor: rotate</li>
+      <li>background: linear-gradient();</li>
+      <li>Comentário no CSS</li>
+    </ul>
+
+    <br>
+
     
-    
-    
-    ----
-    ao declarar espaços no padding tem uma ordem
-    consultar documentação
-    valor 0 não precisa marcar unidade
-    
-    uso de código hexadecimal, 
-    background color é o mesmo de só background
-    
-    em border tempos largura, estilo e cor
-    dá para separar estilização de cada um dos lados
-    border radius - aredondar cantos elementos
-    
-    ordem no css
-    topo direita inferior esquerda
-    
-    apresentação do: 
-    font-family,
-    podemos setar duas fontes caso uma de erro
-    
-    text-transform,
-    transforma o texto em 
-    
-    font-size
-    
-    font-style
-    
-    font-weight
-    text-transform
-    text-decoration
-    
-    list style-type para mudar marcadores das listas
-    
-    --
-    altura e largura máxima
-    text align alinhamento de textos
-    
-    margin pode ter valor auto, se adequando com tamanho da tela
-    
-    
+
+    <!--
     ANIMAÇÕES COM CSS
-    
-    align-itens
-    background-position
-    background-repeat
-    background-size
-    display
-    filter
-    cursor
-    transition
-    position
-    "-wrapper
-    toggle  
-    ::before
-    letter-spacing
-    visibility
-    :hover 
-    > <- apontando para outra classe, nunca vi
-    <label>, <input> html
-    ease-in-out
-    :nth-child(1)
-    top
-    transform: rotate
-    :checked + 
-    .trace:nth-child(1)
-    transfor: rotate (-45deg)
-    background: linear-gradient();
-    min-width
-    transition: .5s cubic-bezier();
-    animation: <- diversas propriedades
-    @keyframes backgroundTransition ?
-    setou de 0%,50 e 100%
-    height: 100vh - oculpa 100% tela altura
-    width: 100vw - oculpa 100% na horizontal
-    display: flex
-    unidade rem? no css
-    box-sizing
-    justify-content: space-evenly
     transform: translatey(0);
-    /* <- comentário no CSS
+    
     content: "";
     positions
     bottom
@@ -187,7 +169,12 @@
     box-shadow
     visibility 
     uso do ~ e + 
-    
+    text-transform,
+    font-size
+    font-style
+    font-weight
+    text-transform
+    text-decoration
     
     --Criar --
     z-index
@@ -210,8 +197,8 @@
     Sites úteis: 
     tiny.png -> reduz tamanho imagem
 
-
-
+    [box model no css]
+    -->
 </body>
 </html>
 
